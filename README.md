@@ -1,6 +1,6 @@
 # WeAct STM32F411 Core Board
 
-##如何使用
+## 如何使用
 
 ```
 git clone https://github.com/micropython/micropython.git
