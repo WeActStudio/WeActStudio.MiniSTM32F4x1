@@ -1,9 +1,7 @@
 # WeAct STM32F411 Core Board
-<<<<<<< HEAD
-## 如何使用
-=======
+
 ##如何使用
->>>>>>> 2d6847479c8a18651f332be1d24f6dc0dd80ceeb
+
 ```
 git clone https://github.com/micropython/micropython.git
 cd micropython
