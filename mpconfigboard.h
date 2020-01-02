@@ -7,19 +7,21 @@
 #define MICROPY_BOARD_EARLY_INIT    WeAct_Core_board_early_init
 void WeAct_Core_board_early_init(void);
 
-/* BOARD Ver 2.0 set 1 ，other set 0 */
-#define VERSION_V20 (0)
+/* BOARD Ver 2.0+ set 1 ，other set 0 */
+#define VERSION_V20 (1)
 
-/* 使用内置flash改1 使用外置flash请改0 */
+/* 使用内置flash改1 使用外置flash改0 */
 #define MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE (1)
 
 #define MICROPY_HW_HAS_SWITCH       (1)
 #define MICROPY_HW_HAS_FLASH        (1)
 #define MICROPY_HW_ENABLE_RTC       (1)
 #define MICROPY_HW_ENABLE_USB       (1)
+#define MICROPY_HW_ENABLE_ADC       (1)
 #define MICROPY_HW_ENABLE_SERVO     (1)
 #define MICROPY_HW_ENABLE_SDCARD    (0)
 #define MICROPY_HW_ENABLE_RNG       (0)
+#define MICROPY_HW_ENABLE_DAC       (0)
 
 // HSE is 25MHz, CPU freq set to 96MHz
 #define MICROPY_HW_CLK_PLLM (25)
@@ -33,8 +35,10 @@ void WeAct_Core_board_early_init(void);
 
 #define MICROPY_HW_UART2_TX     (pin_A2)
 #define MICROPY_HW_UART2_RX     (pin_A3)
-// UART 2 connects to the STM32F103 (STLINK) on the Nucleo board
-// and this is exposed as a USB Serial port.
+
+#define MICROPY_HW_UART6_TX     (pin_A11)
+#define MICROPY_HW_UART6_RX     (pin_A12)
+
 #define MICROPY_HW_UART_REPL        PYB_UART_1
 #define MICROPY_HW_UART_REPL_BAUD   115200
 
@@ -62,21 +66,21 @@ void WeAct_Core_board_early_init(void);
 #define MICROPY_HW_SPI3_MISO    (pin_B4)    // Arduino D5,  pin 27 on CN10
 #define MICROPY_HW_SPI3_MOSI    (pin_B5)    // Arduino D4,  pin 29 on CN10
 
-// #define MICROPY_HW_SPI4_NSS     (pin_B12)   //              pin 16 on CN10
-// #define MICROPY_HW_SPI4_SCK     (pin_B13)   //              pin 30 on CN10
-// #define MICROPY_HW_SPI4_MISO    (pin_A1)    //              pin 30 on CN7
-// #define MICROPY_HW_SPI4_MOSI    (pin_A11)   //              pin 14 on CN10
+#define MICROPY_HW_SPI4_NSS     (pin_B12)   //              pin 16 on CN10
+#define MICROPY_HW_SPI4_SCK     (pin_B13)   //              pin 30 on CN10
+#define MICROPY_HW_SPI4_MISO    (pin_A1)    //              pin 30 on CN7
+#define MICROPY_HW_SPI4_MOSI    (pin_A11)   //              pin 14 on CN10
 
 
-// #define MICROPY_HW_SPI5_NSS     (pin_B1)    //              pin 24 on CN10
-// #define MICROPY_HW_SPI5_SCK     (pin_A10)   //              pin 33 on CN10
-// #define MICROPY_HW_SPI5_MISO    (pin_A12)   //              pin 12 on CN10
-// #define MICROPY_HW_SPI5_MOSI    (pin_B0)    //              pin 34 on CN7
+#define MICROPY_HW_SPI5_NSS     (pin_B1)    //              pin 24 on CN10
+#define MICROPY_HW_SPI5_SCK     (pin_A10)   //              pin 33 on CN10
+#define MICROPY_HW_SPI5_MISO    (pin_A12)   //              pin 12 on CN10
+#define MICROPY_HW_SPI5_MOSI    (pin_B0)    //              pin 34 on CN7
 
 // USRSW is pulled low. Pressing the button makes the input go high.
 #define MICROPY_HW_USRSW_PIN        (pin_A0)
 #define MICROPY_HW_USRSW_PULL       (GPIO_PULLUP)
-#define MICROPY_HW_USRSW_EXTI_MODE  (GPIO_MODE_IT_FALLING)
+#define MICROPY_HW_USRSW_EXTI_MODE  (GPIO_MODE_IT_RISING)
 #define MICROPY_HW_USRSW_PRESSED    (0)
 
 // LEDs
@@ -93,8 +97,8 @@ void WeAct_Core_board_early_init(void);
 // 容量大小定义 单位：Mbit
 // 4MB Flash 32Mbit
 // 8MB Flash 64Mbit
-// 16MB
-#define MICROPY_HW_SPIFLASH_SIZE_BITS (32 * 1024 * 1024)
+// 16MB Flash 128Mbit
+#define MICROPY_HW_SPIFLASH_SIZE_BITS (32 * 1024 * 1024) // 4MB Flash 32Mbit
 
 #define MICROPY_HW_SPIFLASH_CS      (pin_A4)
 #define MICROPY_HW_SPIFLASH_SCK     (pin_A5)
@@ -108,7 +112,7 @@ void WeAct_Core_board_early_init(void);
 #define MICROPY_HW_SPIFLASH_MOSI    (pin_A7)
 
 
-// 使用外置flash
+// 使用外置spi flash
 #if !MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE
 
 extern const struct _mp_spiflash_config_t spiflash_config;
