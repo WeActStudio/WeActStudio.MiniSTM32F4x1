@@ -1,0 +1,56 @@
+*.psd
+*.o
+.DS_Store
+*~
+*.uvopt
+*.uvoptx
+*.dep
+*.bak
+*.uvgui.*
+*.uvguix.*
+
+*.swp
+*.save
+.project
+.settings
+.cproject
+obj/
+patches/
+startup_stm32f10x_md_gcc.s
+.idea
+
+# script-generated files
+docs/Manual.pdf
+README.pdf
+
+# artefacts of top-level Makefile
+/downloads/
+/tools/
+/build/
+# local changes only
+make/local.mk
+
+# artefacts for VisualGDB (running in Visual Studio)
+mcu.mak
+mcu.mak.old
+stm32.mak
+
+# eclipse launch configurations
+/support/eclipse
+
+# ozone launch configurations
+/support/ozone
+
+# artefacts for Visual Studio Code
+/.vscode/
+
+# artefacts for CLion
+/cmake-build-debug/
+/CMakeLists.txt
+
+.vagrant
+ubuntu*.log
+/.vs
+
+# EEPROM image file (created by SITL)
+eeprom.bin
