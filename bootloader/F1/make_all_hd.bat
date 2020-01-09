@@ -1,0 +1,11 @@
+make generic-pc13 PAGE_SIZE=2048
+make generic-pd2 PAGE_SIZE=2048
+make generic-pd1 PAGE_SIZE=2048
+make generic-pa1 PAGE_SIZE=2048
+make generic-pb9 PAGE_SIZE=2048
+make generic-pe2 PAGE_SIZE=2048
+make generic-pa9 PAGE_SIZE=2048
+make generic-pe5 PAGE_SIZE=2048
+make generic-pb7 PAGE_SIZE=2048
+make generic-pb0 PAGE_SIZE=2048
+make generic-pb12 PAGE_SIZE=2048
