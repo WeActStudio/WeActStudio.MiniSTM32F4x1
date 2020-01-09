@@ -41,19 +41,24 @@ APP 程序可用调试器调试仿真，无影响。
 4. 所选固件会随KEIL重新编译而更新，无需重新选择
 
 ## 进入Bootloader 方法：
-1. 按住<KEY键>，重新上电或复位，C13 LED 闪烁即可松开
-         Hold down the <KEY> to Repower or Reboot
+1. 按住<KEY>键，重新上电或复位，C13 LED 闪烁即可松开
 2. APP进入Bootloader 参考stm32f401_test_APP 0x8004000.zip 工程
-3. 在Bootloader 中 <KEY键> 单击/双击 为 C13 LED 亮灭
 
 ## 在Bootloader 中：
-1. <KEY键> 单击/双击 为 C13 LED 亮灭
+1. <KEY>键 单击 为 C13 LED 亮灭
 2. SW 调试口开放，可以用调试器烧写，无需进入DFU模式
+3. 长按<KEY>键，C13 LED 闪烁即可松开，为进入内置自举程序，ISP模式
 
 ## 退出Bootloader 方法：
 1. 复位MCU， 复位键/上位机点击<MCU 复位>
-2. 长按<KEY键>，C13 LED 闪烁即可松开
+2. 长按<KEY>键，C13 LED 闪烁即可松开
 
 ## 注意事项：
 1. 首次烧录Bootloader，MCU不会往下运行，同时<C13 LED>200MS闪烁，只需再次复位MCU即可
 2. Bootloader 以及 APP烧录软件 源码均不开放
+
+## HID bootloader V1.1
+1. Bugs 修复
+2. 修改<KEY>键长按功能，长按<KEY>键，C13 LED 闪烁即可松开，为进入内置自举程序，ISP模式
+3. 减小bootloader固件大小
+4. 移除<KEY>键 双击功能
