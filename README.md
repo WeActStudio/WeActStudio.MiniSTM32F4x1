@@ -3,7 +3,7 @@
 You can Buy on [AliExpress](https://www.aliexpress.com/item/4000069263843.html) or search for "STM32F411CEU6"，"STM32F401CCU6" on AliExpress 
 > What doesn't have a logo and version number isn't made by WeAct, probably Pirated&Fake.
 
-![STM32F4X1 V2.0](https://github.com/WeActTC/Product-Images/blob/master/STM32F4x1C/STM32F4x1C_V20.png "STM32F4X1 V2.0")
+![STM32F4X1 V2.0](https://github.com/WeActTC/Product-Images/raw/master/STM32F4x1C/STM32F4x1C_V20.png "STM32F4X1 V2.0")
 
 ## MicroPython
 > STM32F401CCU6 Not Support,STM32F411CEU6 Support.
