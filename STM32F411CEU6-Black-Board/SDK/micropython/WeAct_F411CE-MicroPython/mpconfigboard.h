@@ -7,10 +7,12 @@
 #define MICROPY_BOARD_EARLY_INIT    WeAct_Core_board_early_init
 void WeAct_Core_board_early_init(void);
 
-/* BOARD Ver 2.0+ set 1 ，other set 0 */
+/* BOARD Ver 2.0 set 1 ，other set 0 ex.V1.3,V2.1 */
 #define VERSION_V20 (1)
 
 /* 使用内置flash改1 使用外置flash改0 */
+/* Use the built-in flash to change to 1 
+   use the external flash to change to 0 */
 #define MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE (1)
 
 #define MICROPY_HW_HAS_SWITCH       (1)

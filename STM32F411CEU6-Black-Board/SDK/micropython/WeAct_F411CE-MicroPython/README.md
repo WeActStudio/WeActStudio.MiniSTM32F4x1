@@ -14,10 +14,12 @@ cd ..
 # CROSS_COMPILE 修改为自己的编译器路径
 # CROSS_COMPILE Change to your own compiler path
 make BOARD=WeAct_F411CE CROSS_COMPILE=/mnt/e/MCU/tools/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi- -j4
+# or 或者
+make BOARD=WeAct_F411CE -j4
 ```
 ## mpconfigboard.h
 ```
-/* BOARD Ver 2.0+ set 1 ，other set 0 */
+/* BOARD Ver 2.0 set 1 ，other set 0 ex.V1.3,V2.1 */
 #define VERSION_V20 (1)
 
 /* 使用内置flash改1 使用外置flash改0 */
