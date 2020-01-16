@@ -1,9 +1,9 @@
 # Release Notes 版本说明
 
-## V2.1 
-> SDIO is not commonly used, restore Flash pin: Flash MISO pin changed from PB4 to PA6
+## V2.1
+> SDIO is not commonly used, restore Flash pin: Flash MISO pin changed from PB4 to PA6,The look is consistent with V2.0.
 
-> SDIO不常用，恢复Flash引脚: Flash MISO脚由PB4改为PA6
+> SDIO不常用，恢复Flash引脚: Flash MISO脚由PB4改为PA6，外观与V2.0版本一致
 
 ## V2.0
 > The thickness of the board was changed to 1.6mm, the Flash MISO foot was changed from PA6 to PB4, and the keys were changed to large buttons.

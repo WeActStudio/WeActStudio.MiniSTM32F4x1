@@ -4,6 +4,8 @@
 This software refers to the following source code, but it is not modified from the following source code
 STM32_HID_bootloader https://github.com/Serasidis/STM32_HID_Bootloader.git
 
+> [中文使用说明](/Soft/WeAct_HID_FW_Bootloader/README_zh-CN.md)
+
 > Bootloader/  ------------------------  Bootloader firmware Default APP forwarding address: 0x8004000
 
 > APP/APP   ---------------------------  Project setting method and test firmware
