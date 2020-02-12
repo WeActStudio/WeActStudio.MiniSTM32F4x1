@@ -1,10 +1,12 @@
 # STM32F4x1 MiniF4 WeAct
 ## Where to buy
-You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`" on [AliExpress](https://www.aliexpress.com/)
+You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`" on [AliExpress](https://www.aliexpress.com/), Do Not Buy In `ZUCZUG` !! it's `Pirated`.
 
 [淘宝](https://www.taobao.com/) 搜索：`stm32f401核心板`或`STM32F4`
 
 > What doesn't have a logo and version number isn't made by `WeAct`, probably `Pirated&Fake`.
+
+> STM32F401 V1.2 `End Of Life` , STM32F411 V1.3 `End Of Life` Since 2019.11
 
 ## Chip information 芯片信息
 ![STM32F411 Info](/images/DeviceMarkingUFQFPN48.png)
@@ -33,7 +35,7 @@ https://github.com/WeActTC/WeAct_F411CE.git
 ![WeAct HID Flash](https://WeActTC.github.io/images/STM32/HIDFlash2.png)
 
 ## Stores known to sell Pirated&Fake:
-[Global-Purchase Store](https://www.aliexpress.com/item/4000103610226.html)
+[Global-Purchase Store]()
 
 ![Stores known to sell Pirated&Fake](/images/fake.jpg)
 
