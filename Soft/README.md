@@ -8,7 +8,7 @@
 
 4. `WeActToolBox` Network speed view && Serial Port view widget
 
-5. More software 更多软件
+5. More software 更多软件 && `STM32CubeProgmmer` 等软件 百度云下载地址
 ```
 链接：https://pan.baidu.com/s/1Ugz7GwJ0j41GaBrUv0c0Og 
 提取码：lhla
