@@ -1,27 +1,30 @@
-#define MICROPY_HW_BOARD_NAME       "WeFun_Core"
+#define MICROPY_HW_BOARD_NAME       "WeAct_Core"
 #define MICROPY_HW_MCU_NAME         "STM32F401CC"
 
 #define MICROPY_PY_THREAD           (1)
 
-#define MICROPY_BOARD_EARLY_INIT    WeFun_Core_board_early_init
-void WeFun_Core_board_early_init(void);
+#define MICROPY_BOARD_EARLY_INIT    WeAct_Core_board_early_init
+void WeAct_Core_board_early_init(void);
+
+/* BOARD Ver 2.0 set 1 ，other set 0 like V1.3 V2.1+ */
+#define VERSION_V20                 (1)
+#define USE_External_Flash          (0)
 
 #define MICROPY_EMIT_THUMB          (0)
 #define MICROPY_EMIT_INLINE_THUMB   (0)
 #define MICROPY_PY_BUILTINS_COMPLEX (0)
 #define MICROPY_PY_USOCKET          (0)
 #define MICROPY_PY_NETWORK          (0)
-#define MICROPY_PY_STM              (1)
+#define MICROPY_PY_STM              (0)
 #define MICROPY_PY_PYB_LEGACY       (0)
-#define MICROPY_VFS_FAT             (1)
 
 #define MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE (0)
-#define MICROPY_HW_HAS_SWITCH       (0)
-#define MICROPY_HW_HAS_FLASH        (1)
 #define MICROPY_HW_ENABLE_RTC       (1)
-#define MICROPY_HW_ENABLE_USB       (1)
-#define MICROPY_HW_ENABLE_SERVO     (1)
+#define MICROPY_HW_ENABLE_ADC       (1)
+#define MICROPY_HW_ENABLE_USB       (USE_External_Flash)
 #define MICROPY_HW_ENABLE_TIMER     (1)
+#define MICROPY_HW_HAS_SWITCH       (0)
+#define MICROPY_HW_ENABLE_SERVO     (1)
 
 
 // HSE is 25MHz, CPU freq set to 84MHz
@@ -29,6 +32,11 @@ void WeFun_Core_board_early_init(void);
 #define MICROPY_HW_CLK_PLLN (336)
 #define MICROPY_HW_CLK_PLLP (RCC_PLLP_DIV4)
 #define MICROPY_HW_CLK_PLLQ (7)
+
+// The pyboard has a 32.768kHz crystal for the RTC
+#define MICROPY_HW_RTC_USE_LSE      (1)
+#define MICROPY_HW_RTC_USE_US       (0)
+#define MICROPY_HW_RTC_USE_CALOUT   (1)
 
 #define MICROPY_HW_FLASH_LATENCY    FLASH_LATENCY_2
 
@@ -78,31 +86,31 @@ void WeFun_Core_board_early_init(void);
 // #define MICROPY_HW_SPI5_MOSI    (pin_B0)    //              pin 34 on CN7
 
 // USRSW is pulled low. Pressing the button makes the input go high.
-// #define MICROPY_HW_USRSW_PIN        (pin_C13)
-// #define MICROPY_HW_USRSW_PULL       (GPIO_NOPULL)
-// #define MICROPY_HW_USRSW_EXTI_MODE  (GPIO_MODE_IT_FALLING)
-// #define MICROPY_HW_USRSW_PRESSED    (0)
+#define MICROPY_HW_USRSW_PIN        (pin_A0)
+#define MICROPY_HW_USRSW_PULL       (GPIO_PULLUP)
+#define MICROPY_HW_USRSW_EXTI_MODE  (GPIO_MODE_IT_FALLING)
+#define MICROPY_HW_USRSW_PRESSED    (0)
 
 // LEDs
 #define MICROPY_HW_LED1             (pin_C13) // Blue LD2 LED on board
 #define MICROPY_HW_LED_ON(pin)      (mp_hal_pin_low(pin))
 #define MICROPY_HW_LED_OFF(pin)     (mp_hal_pin_high(pin))
 
-// The pyboard has a 32.768kHz crystal for the RTC
-#define MICROPY_HW_RTC_USE_LSE      (1)
-#define MICROPY_HW_RTC_USE_US       (0)
-#define MICROPY_HW_RTC_USE_CALOUT   (1)
-
 // use external SPI flash for storage
 #define MICROPY_HW_SPIFLASH_SIZE_BITS (32 * 1024 * 1024)
 #define MICROPY_HW_SPIFLASH_CS      (pin_A4)
 #define MICROPY_HW_SPIFLASH_SCK     (pin_A5)
-#define MICROPY_HW_SPIFLASH_MISO    (pin_A6)
+#if VERSION_V20
+	#define MICROPY_HW_SPIFLASH_MISO    (pin_B4)
+#else 
+	#define MICROPY_HW_SPIFLASH_MISO    (pin_A6)
+#endif
 #define MICROPY_HW_SPIFLASH_MOSI    (pin_A7)
 
 
 // block device config for SPI flash
-
+// 使用外置flash
+#if USE_External_Flash
 extern const struct _mp_spiflash_config_t spiflash_config;
 extern struct _spi_bdev_t spi_bdev;
 #define MICROPY_HW_BDEV_IOCTL(op, arg) ( \
@@ -112,7 +120,8 @@ extern struct _spi_bdev_t spi_bdev;
 )
 #define MICROPY_HW_BDEV_READBLOCKS(dest, bl, n) spi_bdev_readblocks(&spi_bdev, (dest), (bl), (n))
 #define MICROPY_HW_BDEV_WRITEBLOCKS(src, bl, n) spi_bdev_writeblocks(&spi_bdev, (src), (bl), (n))
+#endif
 
 // USB config
-#define MICROPY_HW_USB_FS (1)
-#define MICROPY_HW_FLASH_FS_LABEL "wefunf401"
+#define MICROPY_HW_USB_FS (MICROPY_HW_ENABLE_USB)
+#define MICROPY_HW_FLASH_FS_LABEL "WeActF401CC"
