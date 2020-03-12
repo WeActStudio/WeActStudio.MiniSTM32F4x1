@@ -1,4 +1,4 @@
-# STM32F4x1 MiniF4 WeAct
+# STM32F4x1 MiniF4 / WeAct Studio 微行工作室 出品
 > `STM32F401CCU6` / `STM32F411CEU6` Core Board
 
 ![](/images/STM32F4x1-V22-3D.jpg "STM32F411 Immersion Gold Board 3D View")
@@ -30,7 +30,7 @@ You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`","`STM32F411`","`STM32F4
 ### All chips are functional and original 所有芯片原装正品，测试正常
 
 ## MicroPython
-> STM32F401CCU6 `Not Support`, STM32F411CEU6 `Support`.
+> STM32F401CCU6 `Support`, STM32F411CEU6 `Support`.
 ### Board Define
 https://github.com/WeActTC/WeAct_F411CE.git
 > 中文使用不完全教程：[点击](https://www.weact-tc.cn/2020/01/01/micropython/)

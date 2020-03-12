@@ -97,6 +97,10 @@ void WeAct_Core_board_early_init(void);
 #define MICROPY_HW_LED_OFF(pin)     (mp_hal_pin_high(pin))
 
 // use external SPI flash for storage
+// Flash Size:
+// 4MB Flash 32Mbit
+// 8MB Flash 64Mbit
+// 16MB Flash 128Mbit
 #define MICROPY_HW_SPIFLASH_SIZE_BITS (32 * 1024 * 1024)
 #define MICROPY_HW_SPIFLASH_CS      (pin_A4)
 #define MICROPY_HW_SPIFLASH_SCK     (pin_A5)

@@ -16,8 +16,8 @@
         <TargetCommonOption>
           <Device>STM32F401CCUx</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32F4xx_DFP.2.13.0</PackID>
-          <PackURL>http://www.keil.com/pack</PackURL>
+          <PackID>Keil.STM32F4xx_DFP.2.14.0</PackID>
+          <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000,0x00010000) IROM(0x08000000,0x00040000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
@@ -336,7 +336,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_STDPERIPH_DRIVER,STM32F411xE</Define>
+              <Define>USE_STDPERIPH_DRIVER,STM32F401xx</Define>
               <Undefine></Undefine>
               <IncludePath>..\MDK-ARM;..\Core\Inc;..\Drivers\STM32F4xx_StdPeriph_Driver\inc;..\Drivers\CMSIS\Device\ST\STM32F4xx\Include</IncludePath>
             </VariousControls>
@@ -416,6 +416,11 @@
               <FileName>startup_stm32f401xx.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\startup_stm32f401xx.s</FilePath>
+            </File>
+            <File>
+              <FileName>startup_stm32f411xe.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\startup_stm32f411xe.s</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>2</UseCPPCompiler>
@@ -454,11 +459,6 @@
                   </Aads>
                 </FileArmAds>
               </FileOption>
-            </File>
-            <File>
-              <FileName>startup_stm32f411xe.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\startup_stm32f411xe.s</FilePath>
             </File>
           </Files>
         </Group>
