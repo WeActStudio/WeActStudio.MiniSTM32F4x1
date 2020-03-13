@@ -3,9 +3,9 @@
 ![](/images/STM32F4x1-V22-3D.jpg "3D View")
 
 ## V3.0
-> Button ` KEY ` series 330Ω resistance, prevent user settings ` KEY ` pin for the output after the button press cause short circuit, and the appearance remains unchanged.
+> Button ` KEY ` series 330Ω resistance, prevent user settings ` KEY ` pin for the output after the button press cause short circuit, and the appearance remains unchanged.Process improvement, use lead-free process.
 
-> 按键`KEY`串联330Ω电阻，防止用户设置`KEY`引脚为输出后按键按下造成短路，外观不变。
+> 按键`KEY`串联330Ω电阻，防止用户设置`KEY`引脚为输出后按键按下造成短路，外观不变。工艺改善，使用无铅工艺,更环保
 
 ## V2.2
 > Solve the problem that the USB C line with `e-marker` chip cannot provide power, and add `D4` diode to prevent USB power surge, and the appearance remains unchanged
