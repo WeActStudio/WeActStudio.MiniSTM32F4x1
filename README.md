@@ -8,13 +8,15 @@ You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`","`STM32F411`","`STM32F4
 
 [淘宝](https://www.taobao.com/) 搜索：`stm32f401核心板`或`STM32F4`
 
-> What doesn't have a logo and version number isn't made by `WeAct`, probably `Pirated&Fake`.
+> If it doesn't have a logo and version number it isn't made by `WeAct`, probably `Pirated&Fake`.
+
+> The two boards are identical, other than the colour of the contacts.  F401 has silver contacts, while F411 has gold contacts.
 
 > 收到的板子没有Logo `WeAct` && `版本号` 的均不是我们生产，如有质量问题和技术问题请自行寻找卖家解决
 
 > STM32F401 V1.2 `End Of Life` , STM32F411 V1.3 `End Of Life` Since 2019.11
 
->  STM32F401 V1.2,STM32F411 V1.3 已于2019.11停产
+> STM32F401 V1.2,STM32F411 V1.3 已于2019.11停产
 
 ## Chip information 芯片信息
 ![STM32F411 Info](/images/DeviceMarkingUFQFPN48.png)
@@ -30,14 +32,14 @@ You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`","`STM32F411`","`STM32F4
 ### All chips are functional and original 所有芯片原装正品，测试正常
 
 ## MicroPython
-> STM32F401CCU6 `Support`, STM32F411CEU6 `Support`.
-### Board Define
+> STM32F401CCU6 `Supported`, STM32F411CEU6 `Supported`.
+### Board Definition
 https://github.com/WeActTC/WeAct_F411CE.git
 > 中文使用不完全教程：[点击](https://www.weact-tc.cn/2020/01/01/micropython/)
 ## HID Flash
 > 中文STM32下载烧录不完全教程：https://www.weact-tc.cn/2019/11/30/STM32Download/
 
-> support `English` and `Chinese`
+> supported in `English` and `Chinese`
 
 ![WeAct HID Flash](https://WeActTC.github.io/images/STM32/HIDFlash2.png)
 
