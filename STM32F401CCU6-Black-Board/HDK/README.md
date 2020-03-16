@@ -3,13 +3,13 @@
 ![](/images/STM32F4x1-V30_3D.jpg "3D View")
 
 ## V3.0
-> Button ` KEY ` series 330Ω resistance, prevent user settings ` KEY ` pin for the output after the button press cause short circuit, and the appearance remains unchanged.
+> Button ` KEY ` series 330Ω resistance, prevent user settings ` KEY ` pin for the output mode after the button press cause short circuit, and the appearance remains unchanged.Process improvement, use Lead-Free process.
 
-> Solve the problem that the USB C line with `e-marker` chip cannot provide power, and add `D4` diode to prevent USB power surge, and the appearance remains unchanged
+> Solve the problem that the USB C line with `e-marker` chip cannot provide power, and add `D4` diode (`B5819WS SL`) to prevent USB power surge, and the appearance remains unchanged
 
-> 按键`KEY`串联330Ω电阻，防止用户设置`KEY`引脚为输出后按键按下造成短路，外观不变。
+> 按键`KEY`串联330Ω电阻，防止用户设置`KEY`引脚为输出后按键按下造成短路，外观不变。工艺改善，使用无铅工艺,更环保
 
-> 解决带e-marker芯片的USB C数据线不能供电的问题，同时增加D4二极管，防止USB端口电涌，外观不变。
+> 解决带e-marker芯片的USB C数据线不能供电的问题，同时增加D4二极管（型号：`B5819WS SL`），防止USB端口电涌，外观不变。
 
 ## V2.1
 > SDIO is not commonly used, restore Flash pin: Flash MISO pin changed from PB4 to PA6,The look is consistent with V2.0.

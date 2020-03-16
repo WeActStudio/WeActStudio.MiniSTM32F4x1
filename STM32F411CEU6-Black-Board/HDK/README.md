@@ -3,14 +3,14 @@
 ![](/images/STM32F4x1-V22-3D.jpg "3D View")
 
 ## V3.0
-> Button ` KEY ` series 330Ω resistance, prevent user settings ` KEY ` pin for the output after the button press cause short circuit, and the appearance remains unchanged.Process improvement, use lead-free process.
+> Button ` KEY ` series 330Ω resistance, prevent user settings ` KEY ` pin for the output mode after the button press cause short circuit, and the appearance remains unchanged.
 
-> 按键`KEY`串联330Ω电阻，防止用户设置`KEY`引脚为输出后按键按下造成短路，外观不变。工艺改善，使用无铅工艺,更环保
+> 按键`KEY`串联330Ω电阻，防止用户设置`KEY`引脚为输出后按键按下造成短路，外观不变。
 
 ## V2.2
-> Solve the problem that the USB C line with `e-marker` chip cannot provide power, and add `D4` diode to prevent USB power surge, and the appearance remains unchanged
+> Solve the problem that the USB C line with `e-marker` chip cannot provide power, and add `D4` diode (`B5819WS SL`) to prevent USB power surge, and the appearance remains unchanged
 
-> 解决带e-marker芯片的USB C数据线不能供电的问题，同时增加D4二极管，防止USB端口电涌，外观不变。
+> 解决带e-marker芯片的USB C数据线不能供电的问题，同时增加D4二极管（型号：`B5819WS SL`），防止USB端口电涌，外观不变。
 
 ## V2.1
 > SDIO is not commonly used, restore Flash pin: Flash MISO pin changed from PB4 to PA6,The look is consistent with V2.0.
@@ -24,7 +24,7 @@
 
 > 板厚改为1.6mm，Flash MISO脚由PA6改为PB4，同时按键更换为大颗按键。
 
-> 此按键乃减压神器，MISO脚变更，方便用户使用SDIO模式，默认刷入HID Bootloader，实现类似51单片机下载。
+> 此按键乃减压神器，MISO脚变更，方便用户使用SDIO接口，默认刷入HID Bootloader，实现类似51单片机下载。
 
 ## V1.3
 > Add user KEY (PA0)
