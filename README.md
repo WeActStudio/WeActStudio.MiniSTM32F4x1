@@ -25,19 +25,35 @@ You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`","`STM32F411`","`STM32F4
 | :--: | :--: |
 |![STM32F411 Info](/images/stm32f411_dinfo.png)|![STM32F4X1 V2.0](/images/stm32f401_dinfo.png)|
 |Date Code|Date Code|
-|947 (2020.03)||
+|947&002 (2020.03)|609&608|
 |946&947 (2020.01)|723 (2020.01)|
 |19+ (2019)|16+ (2019)|
 
 ### All chips are functional and original 所有芯片原装正品，测试正常
 
+## Pinout Diagram 
+> Thanks `Richard·Balint` !! 
+
+Using Pinout Diagram, Write MicroPython and Arduino code will be easier
+
+![](/images/STM32F4x1_PinoutDiagram_RichardBalint.png "/General document/STM32F4x1 v2.0+ Pin Layout")
+
 ## MicroPython
 > STM32F401CCU6 `Supported`, STM32F411CEU6 `Supported`.
+
 ### Board Definition
-https://github.com/WeActTC/WeAct_F411CE.git
-> 中文使用不完全教程：[点击](https://www.weact-tc.cn/2020/01/01/micropython/)
+STM32F411CE: `https://github.com/WeActTC/WeAct_F411CE-MicroPython.git`
+
+STM32F401CC: `/STM32F401CCU6-Black-Board/SDK/micropython/WeAct_F401CC`
+
+> 中文使用部分教程：[点击](https://www.weact-tc.cn/2020/01/01/micropython/)
+
+> 中文使用部分教程.pdf文件：`/General document/MicroPython部分使用教程 _WeAct工作室.pdf`
+
 ## HID Flash
-> 中文STM32下载烧录不完全教程：https://www.weact-tc.cn/2019/11/30/STM32Download/
+> 中文STM32下载烧录部分教程：[点击](https://www.weact-tc.cn/2019/11/30/STM32Download/)
+
+> 中文STM32下载烧录部分教程.pdf文件：`/General document/STM32部分下载烧录问题汇总 _WeAct工作室.pdf`
 
 > supported in `English` and `Chinese`
 
