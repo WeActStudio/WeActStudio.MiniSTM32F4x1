@@ -62,3 +62,6 @@ APP 程序可用调试器调试仿真，无影响。
 2. 修改\<KEY\>键长按功能，长按<KEY>键，C13 LED 闪烁即可松开，为进入内置自举程序，ISP模式
 3. 减小bootloader固件大小
 4. 移除\<KEY\>键 双击功能
+
+## HID bootloader V1.2
+1. 修复systick没有关闭的问题

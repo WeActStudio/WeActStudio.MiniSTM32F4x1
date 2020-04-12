@@ -50,4 +50,7 @@ The APP program can be debugged by the debugger without any impact.
 3. Remove double-click function
 4. Reduce the size of bootloader firmware
 
+## HID bootloader V1.2
+1. Fixed a problem with systick not closing
+ 
 Note: Bootloader and APP programming software are not open source
