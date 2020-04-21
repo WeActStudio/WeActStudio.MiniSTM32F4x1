@@ -1,7 +1,7 @@
 # STM32F4x1 MiniF4 / WeAct Studio 微行工作室 出品
 > `STM32F401CCU6` / `STM32F411CEU6` Core Board
 
-![](/images/STM32F4x1-V22-3D.jpg "STM32F411 Immersion Gold Board 3D View")
+![](./images/STM32F4x1-V22-3D.jpg "STM32F411 Immersion Gold Board 3D View")
 
 ## Where to buy
 You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`","`STM32F411`","`STM32F401`" on [AliExpress](https://www.aliexpress.com/)
@@ -27,14 +27,14 @@ You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`","`STM32F411`","`STM32F4
 
 > STM32F401 V1.2,STM32F411 V1.3 已于2019.11停产
 
-![](/images/STM32F4x1C_Logo&Version.png "Logo&Version Logo和版本号说明")
+![](./images/STM32F4x1C_Logo&Version.png "Logo&Version Logo和版本号说明")
 
 ## Pinout Diagram 引脚分配图
 > Thanks `Richard·Balint` !! 
 
 Using Pinout Diagram, Write MicroPython and Arduino code will be easier
 
-![](/images/STM32F4x1_PinoutDiagram_RichardBalint.png "/General document/STM32F4x1 v2.0+ Pin Layout")
+![](./images/STM32F4x1_PinoutDiagram_RichardBalint.png "/General document/STM32F4x1 v2.0+ Pin Layout")
 
 ## MicroPython
 * Version: V1.12-35
@@ -58,12 +58,12 @@ STM32F401CC: `/STM32F401CCU6-Black-Board/SDK/micropython/WeAct_F401CC`
 ### Enter the HID bootloader method:
 1. Hold down the <KEY key>, power on or reset again, and the C13 LED will blink to release
 2. APP enters the bootloader reference stm32f401_test_APP 0x8004000.zip project
-3. [More instructions](/Soft/WeAct_HID_FW_Bootloader/README.md)
+3. [More instructions](./Soft/WeAct_HID_FW_Bootloader/README.md)
 
 ### 进入HID Bootloader 方法：
 1. 按住\<KEY\>键，重新上电或复位，C13 LED 闪烁即可松开
 2. APP进入Bootloader 参考stm32f401_test_APP 0x8004000.zip 工程
-3. [更多使用说明](Soft/WeAct_HID_FW_Bootloader/README_zh-CN.md)
+3. [更多使用说明](./Soft/WeAct_HID_FW_Bootloader/README_zh-CN.md)
 
 ![WeAct HID Flash](https://WeActTC.github.io/images/STM32/HIDFlash2.png)
 
@@ -82,11 +82,11 @@ STM32F401CC: `/STM32F401CCU6-Black-Board/SDK/micropython/WeAct_F401CC`
 * Soft: STM32CubeProg。
 
 ## Chip information 芯片信息
-![STM32F411 Info](/images/DeviceMarkingUFQFPN48.png)
+![STM32F411 Info](./images/DeviceMarkingUFQFPN48.png)
 
 | STM32F411 |STM32F401|
 | :--: | :--: |
-|![STM32F411 Info](/images/stm32f411_dinfo.png)|![STM32F4X1 V2.0](/images/stm32f401_dinfo.png)|
+|![STM32F411 Info](./images/stm32f411_dinfo.png)|![STM32F4X1 V2.0](./images/stm32f401_dinfo.png)|
 |Date Code|Date Code|
 |947&002 (2020.03)|609&608|
 |946&947 (2020.01)|723 (2020.01)|
@@ -95,4 +95,4 @@ STM32F401CC: `/STM32F401CCU6-Black-Board/SDK/micropython/WeAct_F401CC`
 ### All chips are functional and original 所有芯片原装正品，测试正常
 
 ## Board Shape 外形
-![STM32F4X1 V2.0+](/images/STM32F4x1-V20+BoardShape.png "Board Shape")
+![STM32F4X1 V2.0+](./images/STM32F4x1-V20+BoardShape.png "Board Shape")
