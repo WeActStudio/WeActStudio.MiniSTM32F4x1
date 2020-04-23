@@ -4,10 +4,16 @@
 
 > `4m_flash`: External Nor Flash as MSC Dervice 外部Nor Flash 作为 MSC 设备
 
-> `none_rom`: None MSC Dervice,Use Serial PA9PA10.使用串口PA9PA10通讯
+> `none_rom`: None MSC Dervice,Use Serial PA9PA10.使用串口PA9PA10通讯,无USB功能
 
 > 使用教程：https://www.weact-tc.cn/2020/01/01/micropython/
 
+4MB SPI Flash:
+* 硬件版本：V2.1，V2.2，V3.0对应固件为：firmware_4m_flash_stm32f401_v21+&&V13_v1.12-35.hex
+* 硬件版本：V2.0对应固件为：firmware_4m_flash_stm32f401_v20_v1.12-35.hex
+
+内置Flash Internal Rom:
+* firmware_internal_rom_stm32f401_v1.12-35.hex
 
 ## How to build 如何编译 ubuntu/Win10内置linux
 
