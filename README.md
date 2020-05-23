@@ -8,14 +8,14 @@ You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`","`STM32F411`","`STM32F4
 
 ### 淘宝购买链接
 1. [WeAct Studio官方店](https://shop118454188.taobao.com/index.htm?spm=2013.1.w5002-17867322799.2.212f5cb16nqwNP)
-2. [育松电子（代售商家）](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-14787471870.10.71616865kPY8bZ&id=596986293640)
-3. 淘宝其他电子商家未做确认
+2. 淘宝其他电子商家未做确认
 
 ### 淘宝出售翻版商家
 1. [eixpsy旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.16.12f5a581svM8ak&id=611089230357&cm_id=140105335569ed55e27b&abbucket=8)
 2. [深圳市海瑟威电子商行](https://item.taobao.com/item.htm?spm=a230r.1.14.38.12f5a581svM8ak&id=588648744621&ns=1&abbucket=8#detail)
 3. [佳仕通数码专营店](https://detail.tmall.com/item.htm?spm=a230r.1.14.92.12f5a581svM8ak&id=611294799545&ns=1&abbucket=8)
-4. 待更新
+4. [瑞仿科技](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-12887250463.13.59083066X4aKPg&id=618747430812)
+5. 待更新
 
 > If it doesn't have a logo and version number it isn't made by `WeAct`, probably `Pirated&Fake`.
 
