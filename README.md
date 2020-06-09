@@ -29,6 +29,9 @@ You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`","`STM32F411`","`STM32F4
 
 ![](./images/STM32F4x1C_Logo&Version.png "Logo&Version Logo和版本号说明")
 
+## 翻版提示 Piracy Warning
+![](./images/F4x1Copy-1.png "Piracy Warning : 1")
+
 ## Pinout Diagram 引脚分配图
 > Thanks `Richard·Balint` !! 
 
