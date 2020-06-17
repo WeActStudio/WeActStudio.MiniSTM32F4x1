@@ -15,7 +15,13 @@ You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`","`STM32F411`","`STM32F4
 2. [深圳市海瑟威电子商行](https://item.taobao.com/item.htm?spm=a230r.1.14.38.12f5a581svM8ak&id=588648744621&ns=1&abbucket=8#detail)
 3. [佳仕通数码专营店](https://detail.tmall.com/item.htm?spm=a230r.1.14.92.12f5a581svM8ak&id=611294799545&ns=1&abbucket=8)
 4. [瑞仿科技](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-12887250463.13.59083066X4aKPg&id=618747430812)
-5. 待更新
+5. [绿深旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.67.1f455f851IlrO2&id=619121595543)
+6. 待更新
+
+### Aliexpress Sells Piracy Merchants
+1. [Global-Purchase Store](https://www.aliexpress.com/item/4000103610226.html)
+2. [WAVGAT Official Store](https://www.aliexpress.com/item/4000084631884.html) Suspected of Selling Piracy
+3. To be updated
 
 > If it doesn't have a logo and version number it isn't made by `WeAct`, probably `Pirated&Fake`.
 
@@ -41,12 +47,14 @@ Using Pinout Diagram, Write MicroPython and Arduino code will be easier
 
 ## MicroPython
 * Version: V1.12-35
-> STM32F401CCU6 `Supported`, STM32F411CEU6 `Supported`.
+> STM32F401CCU6 `Supported`, STM32F401CEU6 `Supported`, STM32F411CEU6 `Supported`.
 
 ### Board Definition
-STM32F411CE: `https://github.com/WeActTC/WeAct_F411CE-MicroPython.git`
+STM32F401CC: `/SDK/STM32F401CCU6/MicroPython/WeAct_F401CC`
 
-STM32F401CC: `/STM32F401CCU6-Black-Board/SDK/micropython/WeAct_F401CC`
+STM32F401CE: `/SDK/STM32F401CEU6/MicroPython/WeAct_F411CE`
+
+STM32F411CE: `/SDK/STM32F411CEU6/MicroPython/WeAct_F411CE`
 
 > 中文使用部分教程：[点击](https://www.weact-tc.cn/2020/01/01/micropython/)
 
@@ -85,6 +93,12 @@ STM32F401CC: `/STM32F401CCU6-Black-Board/SDK/micropython/WeAct_F401CC`
 * Soft: STM32CubeProg。
 
 ## Chip information 芯片信息
+|MCU|Freq.|RAM|ROM|
+|:--:|:--:|:--:|:--:|
+|STM32F401CC|84Mhz|64KB|256KB|
+|STM32F401CE|84Mhz|96KB|512KB|
+|STM32F411CE|100Mhz|128KB|512KB|
+
 ![STM32F411 Info](./images/DeviceMarkingUFQFPN48.png)
 
 | STM32F411 |STM32F401|
