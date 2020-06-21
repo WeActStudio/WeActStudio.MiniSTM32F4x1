@@ -16,18 +16,21 @@ You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`","`STM32F411`","`STM32F4
 3. [佳仕通数码专营店](https://detail.tmall.com/item.htm?spm=a230r.1.14.92.12f5a581svM8ak&id=611294799545&ns=1&abbucket=8)
 4. [瑞仿科技](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-12887250463.13.59083066X4aKPg&id=618747430812)
 5. [绿深旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.67.1f455f851IlrO2&id=619121595543)
-6. 待更新
+6. [芯城兴旗舰店](https://detail.tmall.com/item.htm?id=618685960543)
+7. 待更新
 
 ### Aliexpress Sells Piracy Merchants
 1. [Global-Purchase Store](https://www.aliexpress.com/item/4000103610226.html)
 2. [WAVGAT Official Store](https://www.aliexpress.com/item/4000084631884.html) Suspected of Selling Piracy
 3. To be updated
 
-> If it doesn't have a logo and version number it isn't made by `WeAct`, probably `Pirated&Fake`.
+> If it doesn't have a logo and version number it isn't made by `WeAct`, absolutely `Pirated&Fake`.
 
 > The two boards are identical, other than the colour of the contacts.  F401 has silver contacts, while F411 has gold contacts.
 
 > 收到的板子没有Logo `WeAct` && `版本号` 的均不是我们生产，如有质量问题和技术问题请自行寻找卖家解决
+
+> 2020.06 , STM32F401CC V3.0 `End Of Life` , Replace With STM32F401CE V3.0 (84Mhz, 512KB ROM, 96KB RAM)
 
 > STM32F401 V1.2 `End Of Life` , STM32F411 V1.3 `End Of Life` Since 2019.11
 
@@ -101,10 +104,11 @@ STM32F411CE: `/SDK/STM32F411CEU6/MicroPython/WeAct_F411CE`
 
 ![STM32F411 Info](./images/DeviceMarkingUFQFPN48.png)
 
-| STM32F411 |STM32F401|
-| :--: | :--: |
-|![STM32F411 Info](./images/stm32f411_dinfo.png)|![STM32F4X1 V2.0](./images/stm32f401_dinfo.png)|
-|Date Code|Date Code|
+| STM32F411CE |STM32F401CC|STM32F401CE|
+| :--: | :--: | :--: |
+|![STM32F411 Info](./images/stm32f411_dinfo.png)|![STM32F401CC Info](./images/stm32f401cc_dinfo.png)|![STM32F401CE Info](./images/stm32f401ce_dinfo.png)|
+|Date Code|Date Code|Date Code|
+|014 (2020.06)|End Of Life|934&935 (2020.06)|
 |947&002 (2020.03)|609&608|
 |946&947 (2020.01)|723 (2020.01)|
 |19+ (2019)|16+ (2019)|
