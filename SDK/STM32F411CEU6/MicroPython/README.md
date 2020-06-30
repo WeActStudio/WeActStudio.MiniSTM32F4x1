@@ -12,6 +12,10 @@
 内置Flash Internal Rom:
 * firmware_internal_rom_stm32f411_v1.12-35.hex
 
+遇到特殊问题需要擦除SPI Flash：
+> 刷入该固件可以擦除外挂的SPI Flash，`LED` 50ms快闪为识别Flash失败，长亮为擦除进行中，0.5s快闪为擦除成功，0.5s慢闪擦除失败
+* SPIFlash_Erase_Firmware.hex
+
 https://github.com/WeActTC/WeAct_F411CE.git
 > 使用教程：https://www.weact-tc.cn/2020/01/01/micropython/
 
