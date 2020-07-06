@@ -1,16 +1,16 @@
 # MicroPython
 ## WeAct_F411CE
-> firmware_xxxxxxx_stm32f411_vxx_v1.12-35 The latest
+> firmware_xxxxxxx_stm32f411_vxx_v1.12-540 The latest
 
 4MB SPI Flash:
-* 硬件版本：V2.1，V2.2，V3.0对应固件为：firmware_4m_flash_stm32f411_v21+&&V13_v1.12-35.hex
+* 硬件版本：V2.1，V2.2，V3.0对应固件为：firmware_4m_flash_stm32f411_v21+&&V13_v1.12-540.hex
 * 硬件版本：V2.0对应固件为：firmware_4m_flash_stm32f411_v20_v1.12-35.hex
 
 8MB SPI Flash:
-* 硬件版本：V2.1，V2.2，V3.0对应固件为：firmware_8m_flash_stm32f411_v21+&&V13_v1.12-35.hex
+* 硬件版本：V2.1，V2.2，V3.0对应固件为：firmware_8m_flash_stm32f411_v21+&&V13_v1.12-540.hex
 
 内置Flash Internal Rom:
-* firmware_internal_rom_stm32f411_v1.12-35.hex
+* firmware_internal_rom_stm32f411_v1.12-540.hex
 
 遇到特殊问题需要擦除SPI Flash：
 > 刷入该固件可以擦除外挂的SPI Flash，`LED` 50ms快闪为识别Flash失败，长亮为擦除进行中，0.5s快闪为擦除成功，0.5s慢闪擦除失败
