@@ -1,5 +1,5 @@
 # STM32F4x1 MiniF4 / WeAct Studio 微行工作室 出品
-> `STM32F401CCU6` / `STM32F411CEU6` Core Board
+> `STM32F401CCU6` / `STM32F401CEU6` / `STM32F411CEU6` Core Board
 
 ![](./images/STM32F4x1-V22-3D.jpg "STM32F411 Immersion Gold Board 3D View")
 
