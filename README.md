@@ -20,9 +20,9 @@ You can search for "`STM32F411CEU6`"，"`STM32F401CCU6`","`STM32F411`","`STM32F4
 7. 待更新
 
 ### Aliexpress Sells Piracy Merchants
-1. ~~[Global-Purchase Store]~~(https://www.aliexpress.com/item/4000103610226.html)
-2. ~~[WAVGAT Official Store]~~(https://www.aliexpress.com/item/4000084631884.html) Suspected of Selling Piracy
-3. ~~[AITEXM Store]~~(https://www.aliexpress.com/item/4001098711269.html) Suspected of Selling Piracy
+1. ~~[Global-Purchase Store](https://www.aliexpress.com/item/4000103610226.html)~~
+2. ~~[WAVGAT Official Store](https://www.aliexpress.com/item/4000084631884.html)~~ Suspected of Selling Piracy
+3. ~~[AITEXM Store](https://www.aliexpress.com/item/4001098711269.html)~~ Suspected of Selling Piracy
 4. To be updated
 
 > If it doesn't have a logo and version number it isn't made by `WeAct`, absolutely `Pirated&Fake`, without our `Logo` on the back, **the quality of these pirated chips can not be guaranteed, the production quality is not up to standard, factory inspection is functory, customers will have all kinds of baffle problems when using, please carefully check!!**.
