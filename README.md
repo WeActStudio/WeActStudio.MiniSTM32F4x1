@@ -51,7 +51,7 @@
 4. ~~[AITEXM Store](https://www.aliexpress.com/item/4001098711269.html)~~ Suspected of selling pirated goods, the use of legitimate promotional pictures
 5. To be updated
 
-> These shop's images are stealing copyrighted piracy industry to promote their products, and use the information we provide, actually received totally different products and promotional products, screen printing error, using renovation, older chips, inferior material production, customer experience is very poor, please carefully identifying, don't let the noise of their rights and interests receive damage!!!!!!
+> These pirated merchants publicize pictures and steal genuine products for publicity, and use the information we provide, actually received totally different products and promotional products, screen printing error, using renovation, older chips, inferior material production, customer experience is very poor, please carefully identifying, don't let the noise of their rights and interests receive damage!!!!!!
 
 > None of the boards received without Logo `WeAct` && `version number` are produced by us. If there are any quality problems or technical problems, please find the seller to solve them by yourself. It is best to report them and comment on them, so as not to deceive others!!
 
