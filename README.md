@@ -41,7 +41,7 @@
 
 ### `Aliexpress` legal purchase link
 
-[Global-Purchase Store](https://www.aliexpress.com/item/4000346695587.html)
+[Sincere Company Store](https://www.aliexpress.com/item/4000346695587.html)
 
 ### `Aliexpress` sells pirated links (beware of being cheated, if you buy by accident, we hope you can report negative comments, so as not to let others be deceived)
 

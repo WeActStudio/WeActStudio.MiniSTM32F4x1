@@ -41,6 +41,8 @@
 
 ### 速卖通正版购买链接
 
+[Sincere Company Store](https://www.aliexpress.com/item/4000346695587.html)
+
 ### 速卖通出售盗版链接（谨防上当受骗，如果不小心购买希望大家举报差评，免得让其他人受骗）
 
 1. ~~[Global-Purchase Store](https://www.aliexpress.com/item/4000103610226.html)~~ 出售盗版
