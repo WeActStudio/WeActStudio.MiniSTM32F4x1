@@ -1,4 +1,9 @@
-STM32_HID_bootloader
+# Important note
+
+If there is no WEACT and version number on the back of the board, the chip batch is 537 or old, the stitches and board are packaged in one bag, the board screen printing is wrong, it is definitely pirated.Please comment on issues if you can, or let us know by email (Zhuab1997@outlook.com).
+
+# STM32_HID_bootloader
+
 =============
 
 ## Notice
