@@ -32,12 +32,13 @@
 
 ### Taobao sells pirated links (beware of being cheated, if you buy by accident, we hope you can report the bad comments, so as not to let others be cheated)
 
-1. ~~[eixpsy旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.16.12f5a581svM8ak&id=611089230357&cm_id=140105335569ed55e27b&abbucket=8)~~ Sale of pirated
-2. ~~[深圳市海瑟威电子商行](https://item.taobao.com/item.htm?spm=a230r.1.14.38.12f5a581svM8ak&id=588648744621&ns=1&abbucket=8#detail)~~ Sale of pirated
-3. ~~[佳仕通数码专营店](https://detail.tmall.com/item.htm?spm=a230r.1.14.92.12f5a581svM8ak&id=611294799545&ns=1&abbucket=8)~~ Sale of pirated
-4. ~~[瑞仿科技](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-12887250463.13.59083066X4aKPg&id=618747430812)~~ Sale of pirated
-5. ~~[绿深旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.67.1f455f851IlrO2&id=619121595543)~~ Sale of pirated
-6. ~~[芯城兴旗舰店](https://detail.tmall.com/item.htm?id=618685960543)~~ Sale of pirated
+1. ~~[深圳市育松电子](https://item.taobao.com/item.htm?spm=a230r.1.14.139.7e3f1465VxCgzT&id=596986293640&ns=1&abbucket=5#detail)~~ Sale of pirated
+2. ~~[eixpsy旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.16.12f5a581svM8ak&id=611089230357&cm_id=140105335569ed55e27b&abbucket=8)~~ Sale of pirated
+3. ~~[深圳市海瑟威电子商行](https://item.taobao.com/item.htm?spm=a230r.1.14.38.12f5a581svM8ak&id=588648744621&ns=1&abbucket=8#detail)~~ Sale of pirated
+4. ~~[佳仕通数码专营店](https://detail.tmall.com/item.htm?spm=a230r.1.14.92.12f5a581svM8ak&id=611294799545&ns=1&abbucket=8)~~ Sale of pirated
+5. ~~[瑞仿科技](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-12887250463.13.59083066X4aKPg&id=618747430812)~~ Sale of pirated
+6. ~~[绿深旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.67.1f455f851IlrO2&id=619121595543)~~ Sale of pirated
+7. ~~[芯城兴旗舰店](https://detail.tmall.com/item.htm?id=618685960543)~~ Sale of pirated
 
 ### `Aliexpress` legal purchase link
 
@@ -51,7 +52,7 @@
 4. ~~[AITEXM Store](https://www.aliexpress.com/item/4001098711269.html)~~ Suspected of selling pirated goods, the use of legitimate promotional pictures
 5. To be updated
 
-> These images are stealing copyrighted piracy industry to promote their products, and use the information we provide, actually received totally different products and promotional products, screen printing error, using renovation, older chips, inferior material production, customer experience is very poor, please carefully identifying, don't let the noise of their rights and interests receive damage!!!!!!
+> These pirated merchants publicize pictures and steal genuine products for publicity, and use the information we provide, actually received totally different products and promotional products, screen printing error, using renovation, older chips, inferior material production, customer experience is very poor, please carefully identifying, don't let the noise of their rights and interests receive damage!!!!!!
 
 > None of the boards received without Logo `WeAct` && `version number` are produced by us. If there are any quality problems or technical problems, please find the seller to solve them by yourself. It is best to report them and comment on them, so as not to deceive others!!
 
@@ -61,7 +62,7 @@
 
 !["Description of Logo and version number"](./images/STM32F4x1C_Logo&Version.png)
 
-We do not produce the boards that we received without the Logo `WeAct` && `version number`. If we find that the sellers are selling fake goods, we hope you can send us the issues or send us an email(zhuab1997@outlook.com), and we will list the sellers on it, so that more people will not be deceived!!
+We do not produce the boards that we received without the Logo `WeAct` && `version number`. If we find that the sellers are selling fake goods, we hope you can send us the issues or send us an email(WeAct_TC@163.com), and we will list the sellers on it, so that more people will not be deceived!!
 
 ## We produce boards
 

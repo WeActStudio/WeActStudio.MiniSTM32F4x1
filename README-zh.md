@@ -32,12 +32,13 @@
 
 ### 淘宝出售盗版链接（谨防上当受骗，如果不小心购买希望大家举报差评，免得让其他人受骗）
 
-1. ~~[eixpsy旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.16.12f5a581svM8ak&id=611089230357&cm_id=140105335569ed55e27b&abbucket=8)~~ 出售盗版
-2. ~~[深圳市海瑟威电子商行](https://item.taobao.com/item.htm?spm=a230r.1.14.38.12f5a581svM8ak&id=588648744621&ns=1&abbucket=8#detail)~~ 出售盗版
-3. ~~[佳仕通数码专营店](https://detail.tmall.com/item.htm?spm=a230r.1.14.92.12f5a581svM8ak&id=611294799545&ns=1&abbucket=8)~~ 出售盗版
-4. ~~[瑞仿科技](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-12887250463.13.59083066X4aKPg&id=618747430812)~~ 出售盗版
-5. ~~[绿深旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.67.1f455f851IlrO2&id=619121595543)~~ 出售盗版
-6. ~~[芯城兴旗舰店](https://detail.tmall.com/item.htm?id=618685960543)~~ 出售盗版
+1. ~~[深圳市育松电子](https://item.taobao.com/item.htm?spm=a230r.1.14.139.7e3f1465VxCgzT&id=596986293640&ns=1&abbucket=5#detail)~~ 出售盗版
+2. ~~[eixpsy旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.16.12f5a581svM8ak&id=611089230357&cm_id=140105335569ed55e27b&abbucket=8)~~ 出售盗版
+3. ~~[深圳市海瑟威电子商行](https://item.taobao.com/item.htm?spm=a230r.1.14.38.12f5a581svM8ak&id=588648744621&ns=1&abbucket=8#detail)~~ 出售盗版
+4. ~~[佳仕通数码专营店](https://detail.tmall.com/item.htm?spm=a230r.1.14.92.12f5a581svM8ak&id=611294799545&ns=1&abbucket=8)~~ 出售盗版
+5. ~~[瑞仿科技](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-12887250463.13.59083066X4aKPg&id=618747430812)~~ 出售盗版
+6. ~~[绿深旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.67.1f455f851IlrO2&id=619121595543)~~ 出售盗版
+7. ~~[芯城兴旗舰店](https://detail.tmall.com/item.htm?id=618685960543)~~ 出售盗版
 
 ### 速卖通正版购买链接
 
@@ -61,7 +62,7 @@
 
 !["Logo和版本号说明"](./images/STM32F4x1C_Logo&Version.png)
 
-收到的板子没有Logo `WeAct` && `版本号` 的均不是我们生产，如果发现商家售假，希望可以issues我们或者发邮箱(zhuab1997@outlook.com)告诉我们，我们会将售假商家列在上面，以免更多的人上当受骗！！！
+收到的板子没有Logo `WeAct` && `版本号` 的均不是我们生产，如果发现商家售假，希望可以issues我们或者发邮箱(WeAct_TC@163.com)告诉我们，我们会将售假商家列在上面，以免更多的人上当受骗！！！
 
 ## 我们生产的板子
 
