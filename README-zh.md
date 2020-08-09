@@ -18,6 +18,8 @@
 |:--:|:--:|:--:|
 |![Top](./images/STM32F401-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F401-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F401-3D-Model-Render/top&bottom.jpg "Top&Bottom View")
 
+想了解我们工作室其他产品，请访问[WeAct-Studio-Product](https://gitee.com/WeAct-TC/WeAct-Studio-Product.git)
+
 ## 重要说明
 
 * 近期网上购物平台出现了大量**仿制品**，也就是**盗版**，我们发现这些仿制品，背面没有 `WeAct` && `版本号` ；板子不是**无铅**工艺，我们都知道有铅对身体**有害**；芯片使用的不是**最新**批次的芯片，甚至使用了**翻新**芯片；不仅生产用料拙劣，而且生产质量不过关，出厂检测敷衍(我们有专门的出厂程序来检测每一个硬件是否合格)，这样客户在使用**盗版**的过程中会出现各种莫名其妙的问题，增加了学习成本，损害了自己的利益，同时也严重损害了我们`WeAct Studio`的产品形象。

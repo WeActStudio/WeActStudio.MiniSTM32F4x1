@@ -1,11 +1,11 @@
 /* USER CODE BEGIN Header */
 
-// WeAct Studio Î¢ÐÐ¹¤×÷ÊÒ
+// WeAct Studio å¾®è¡Œå·¥ä½œå®¤
 // https://github.com/WeActTC/
-// ÌÔ±¦ËÑË÷£ºWeAct Studio
+// æ·˜å®æœç´¢ï¼šWeAct Studio
 // STM32F401CEU6 Core Board
 // Board Version: V3.0
-// ÊÕµ½µÄ°å×ÓÃ»ÓÐLogo `WeAct` && `°æ±¾ºÅ` µÄ¾ù²»ÊÇÎÒÃÇÉú²ú£¬ºÜÓÐ¿ÉÄÜÎªµÁ°æ
+// æ”¶åˆ°çš„æ¿å­æ²¡æœ‰Logo `WeAct` && `ç‰ˆæœ¬å·` çš„å‡ä¸æ˜¯æˆ‘ä»¬ç”Ÿäº§ï¼Œå¾ˆæœ‰å¯èƒ½ä¸ºç›—ç‰ˆ
 // >> 03-CDC_Standalone
 
 /**
@@ -74,6 +74,12 @@ static void LED_Blink(uint32_t Hdelay,uint32_t Ldelay)
 	HAL_GPIO_WritePin(C13_GPIO_Port,C13_Pin,GPIO_PIN_SET);
 	HAL_Delay(Ldelay-1);
 }
+ /*
+  *power by WeAct Studio
+  *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
+  *For more information please visit: https://github.com/WeActTC/MiniF4-STM32F4x1
+  *æ›´å¤šä¿¡æ¯è¯·è®¿é—®ï¼šhttps://gitee.com/WeActTC/MiniF4-STM32F4x1
+  */
 /* USER CODE END 0 */
 
 /**
@@ -124,7 +130,7 @@ int main(void)
 		}
 		else
 		{
-			/* ºôÎüµÆ */
+			/* å‘¼å¸ç¯ */
 			static uint8_t pwmset;
 			static uint16_t time;
 			static uint8_t timeflag;
@@ -141,10 +147,10 @@ int main(void)
 				if(time == 0) timeflag = 0;
 			}
 
-			/* Õ¼¿Õ±ÈÉèÖÃ */
+			/* å ç©ºæ¯”è®¾ç½® */
 			pwmset = time/80;
 
-			/* 20ms Âö¿í */
+			/* 20ms è„‰å®½ */
 			if(timecount > 20) timecount = 0;
 			else timecount ++;
 

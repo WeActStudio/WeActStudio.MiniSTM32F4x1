@@ -67,7 +67,12 @@ static void RTC_CalendarShow(uint8_t *show);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+ /*
+  *power by WeAct Studio
+  *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
+  *For more information please visit: https://github.com/WeActTC/MiniF4-STM32F4x1
+  *æ›´å¤šä¿¡æ¯è¯·è®¿é—®ï¼šhttps://gitee.com/WeActTC/MiniF4-STM32F4x1
+  */
 /* USER CODE END 0 */
 
 /**
@@ -115,7 +120,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  /* C13 ºôÎüµÆ²âÊÔ */
+	  /* C13 å‘¼å¸ç¯æµ‹è¯• */
 	  /* C13 Breathing Lamp test */
 		static uint8_t pwmset;
 		static uint16_t time;
@@ -127,7 +132,7 @@ int main(void)
 			
 		   if(breathsw == 1)
 			{
-				 /* ºôÎüµÆ */
+				 /* å‘¼å¸ç¯ */
 				 /* Breathing Lamp */
 				if(timeflag == 0)
 				{
@@ -140,11 +145,11 @@ int main(void)
 					if(time == 0) timeflag = 0;
 				}
 
-				/* Õ¼¿Õ±ÈÉèÖÃ */
+				/* å ç©ºæ¯”è®¾ç½® */
 				/* Duty Cycle Setting */
 				pwmset = time/80;
 
-				/* 20ms Âö¿í */
+				/* 20ms è„‰å®½ */
 				/* 20ms Pulse Width */
 				if(timecount > 20) timecount = 0;
 				else timecount ++;
@@ -154,7 +159,7 @@ int main(void)
 			}
 		}
 	  
-	  	/* USB RTC ADC ²âÊÔ */
+	  	/* USB RTC ADC æµ‹è¯• */
 	   /* USB RTC ADC Test */
 	  if(HAL_GetTick() - tick1 >= 1000)
 	  {
@@ -168,14 +173,14 @@ int main(void)
 			  RTC_CalendarShow(aShow);
 	  }
 	  
-	  /* 1ms °´¼üÉ¨Ãè */
+	  /* 1ms æŒ‰é”®æ‰«æ */
 	  if(HAL_GetTick() - tick2 >= 1)
 	  {
 		  tick2 = HAL_GetTick();
 		  key_check_all_loop_1ms();
 	  }
 	  
-	  /* Key°´¼ü°´ÏÂ²éÑ¯ */
+	  /* KeyæŒ‰é”®æŒ‰ä¸‹æŸ¥è¯¢ */
 	  if(HAL_GetTick() - tick3 >= 10)
 	  {
 		  tick3 = HAL_GetTick();
@@ -185,19 +190,19 @@ int main(void)
 		  {
 			 breathsw = 0;
 			 HAL_GPIO_WritePin(C13_GPIO_Port,C13_Pin,GPIO_PIN_SET);
-			 CDC_Transmit_FS(aShow,sprintf((char *)aShow, "\r\nShort Press ¶Ì°´\r\n"));
+			 CDC_Transmit_FS(aShow,sprintf((char *)aShow, "\r\nShort Press çŸ­æŒ‰\r\n"));
 		  }
 		  else if(key_value == KEY0_UP_DOUBLE)
 		  {
 			  breathsw = 0;
 			  HAL_GPIO_WritePin(C13_GPIO_Port,C13_Pin,GPIO_PIN_RESET);
 			  
-			  CDC_Transmit_FS(aShow,sprintf((char *)aShow, "\r\nDouble Press Ë«»÷\r\n"));
+			  CDC_Transmit_FS(aShow,sprintf((char *)aShow, "\r\nDouble Press åŒå‡»\r\n"));
 		  }
 		  else if(key_value == KEY0_LONG)
 		  {
 			  breathsw = 1;
-			  CDC_Transmit_FS(aShow,sprintf((char *)aShow, "\r\nLong Press ³¤°´\r\n"));
+			  CDC_Transmit_FS(aShow,sprintf((char *)aShow, "\r\nLong Press é•¿æŒ‰\r\n"));
 		  }
 	  }
   }
@@ -268,14 +273,14 @@ static void RTC_CalendarShow(uint8_t *show)
   RTC_TimeTypeDef stimestructureget;
   int32_t size;
 	
-  /* ±ØĞëÍ¬Ê±»ñÈ¡Ê±¼äºÍÈÕÆÚ ²»È»»áµ¼ÖÂÏÂ´ÎRTC²»ÄÜ¶ÁÈ¡ */
+  /* å¿…é¡»åŒæ—¶è·å–æ—¶é—´å’Œæ—¥æœŸ ä¸ç„¶ä¼šå¯¼è‡´ä¸‹æ¬¡RTCä¸èƒ½è¯»å– */
   /* Both time and date must be obtained or RTC cannot be read next time */
   /* Get the RTC current Time */
   HAL_RTC_GetTime(&hrtc, &stimestructureget, RTC_FORMAT_BIN);
   /* Get the RTC current Date */
   HAL_RTC_GetDate(&hrtc, &sdatestructureget, RTC_FORMAT_BIN);
   /* Display time Format : hh:mm:ss Display date Format : mm-dd-yy */
-  size = sprintf((char *)show, "%02d:%02d:%02d,%02dÔÂ%02dÈÕ%2dÄê\r\n", stimestructureget.Hours,  
+  size = sprintf((char *)show, "%02d:%02d:%02d,%02dæœˆ%02dæ—¥%2då¹´\r\n", stimestructureget.Hours,  
 																					stimestructureget.Minutes,
 																					stimestructureget.Seconds,
 																					sdatestructureget.Month,
