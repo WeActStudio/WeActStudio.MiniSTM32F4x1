@@ -17,13 +17,13 @@
   ******************************************************************************
   */
 	
-// WeAct ¹¤×÷ÊÒ ¶æ»ú²âÊÔ
+// WeAct å·¥ä½œå®¤ èˆµæœºæµ‹è¯•
 // PB9 5V  GND
-// ³È  ºì  ×Ø
-// °´¼ü PA0/KEY
-// Ë«»÷Æô¶¯/¹Ø±Õ¶æ»ú
-// µ¥»÷µ÷ËÙ 10¡ã/s ~ 480¡ã/s
-// ³¤°´»Ö¸´ºôÎüµÆ
+// æ©™  çº¢  æ£•
+// æŒ‰é”® PA0/KEY
+// åŒå‡»å¯åŠ¨/å…³é—­èˆµæœº
+// å•å‡»è°ƒé€Ÿ 10Â°/s ~ 480Â°/s
+// é•¿æŒ‰æ¢å¤å‘¼å¸ç¯
 
 /* USER CODE END Header */
 
@@ -68,7 +68,12 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+ /*
+  *power by WeAct Studio
+  *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
+  *For more information please visit: https://github.com/WeActTC/MiniF4-STM32F4x1
+  *æ›´å¤šä¿¡æ¯è¯·è®¿é—®ï¼šhttps://gitee.com/WeActTC/MiniF4-STM32F4x1
+  */
 /* USER CODE END 0 */
 
 /**
@@ -118,7 +123,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  /* C13 ºôÎüµÆ²âÊÔ */
+	  /* C13 å‘¼å¸ç¯æµ‹è¯• */
 	  /* C13 Breathing Lamp test */
 		static uint8_t pwmset;
 		static uint16_t time;
@@ -130,7 +135,7 @@ int main(void)
 			
 		   if(breathsw == 1)
 			{
-				 /* ºôÎüµÆ */
+				 /* å‘¼å¸ç¯ */
 				 /* Breathing Lamp */
 				if(timeflag == 0)
 				{
@@ -143,11 +148,11 @@ int main(void)
 					if(time == 0) timeflag = 0;
 				}
 
-				/* Õ¼¿Õ±ÈÉèÖÃ */
+				/* å ç©ºæ¯”è®¾ç½® */
 				/* Duty Cycle Setting */
 				pwmset = time/80;
 
-				/* 20ms Âö¿í */
+				/* 20ms è„‰å®½ */
 				/* 20ms Pulse Width */
 				if(timecount > 20) timecount = 0;
 				else timecount ++;
@@ -157,14 +162,14 @@ int main(void)
 			}
 		}
 	  
-	  /* 1ms °´¼üÉ¨Ãè */
+	  /* 1ms æŒ‰é”®æ‰«æ */
 	  if(HAL_GetTick() - tick2 >= 1)
 	  {
 		  tick2 = HAL_GetTick();
 		  key_check_all_loop_1ms();
 	  }
 	  
-	  /* Key°´¼ü°´ÏÂ²éÑ¯ */
+	  /* KeyæŒ‰é”®æŒ‰ä¸‹æŸ¥è¯¢ */
 	  if(HAL_GetTick() - tick3 >= 10)
 	  {
 		  tick3 = HAL_GetTick();

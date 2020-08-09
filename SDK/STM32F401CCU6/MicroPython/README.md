@@ -1,3 +1,5 @@
+# STM32F401CCU6 stopped maintenance on 2020.8.Has been upgraded to STM32F401CEU6 with more memory
+
 # Micropython
 ## WeAct_F401CC
 > firmware_xxxxxxx_stm32f401_vxx_v1.12-35 The Latest 最新

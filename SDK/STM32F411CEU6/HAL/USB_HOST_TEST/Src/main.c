@@ -123,29 +123,29 @@ static void USBH_MouseDemo(USBH_HandleTypeDef *phost)
 		
     if(m_pinfo->buttons[0])
     {
-			printf("左键按下\r\n");
+			printf("宸﹂敭鎸変笅\r\n");
     }
     else
     {
-      //printf("左键松开\r\n");
+      //printf("宸﹂敭鏉惧紑\r\n");
     }
     
     if(m_pinfo->buttons[1])
     {
-      printf("右键按下\r\n");
+      printf("鍙抽敭鎸変笅\r\n");
     }
     else
     {
-      //printf("右键松开\r\n");
+      //printf("鍙抽敭鏉惧紑\r\n");
     }
     
     if(m_pinfo->buttons[2])
     {
-      printf("中键按下\r\n");
+      printf("涓敭鎸変笅\r\n");
     }
     else
     {
-      //printf("中键松开\r\n");
+      //printf("涓敭鏉惧紑\r\n");
     }
   }
 }
@@ -153,7 +153,12 @@ static void USBH_MouseDemo(USBH_HandleTypeDef *phost)
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+ /*
+  *power by WeAct Studio
+  *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
+  *For more information please visit: https://github.com/WeActTC/MiniF4-STM32F4x1
+  *鏇村淇℃伅璇疯闂細https://gitee.com/WeActTC/MiniF4-STM32F4x1
+  */
 /* USER CODE END 0 */
 
 /**
@@ -209,7 +214,7 @@ int main(void)
 		{
 			if(USBHostState == HID_UNKNOWN)
 			{
-				printf("\r\n连接的是键盘\r\n");
+				printf("\r\n杩炴帴鐨勬槸閿洏\r\n");
 				USBHostState = HID_KEYBOARD;
 			}
 			HAL_GPIO_TogglePin(C13_GPIO_Port,C13_Pin);
@@ -219,7 +224,7 @@ int main(void)
 		{
 			if(USBHostState == HID_UNKNOWN)
 			{
-				printf("\r\n连接的是鼠标\r\n");
+				printf("\r\n杩炴帴鐨勬槸榧犳爣\r\n");
 				USBHostState = HID_MOUSE;
 			}
 			HAL_GPIO_TogglePin(C13_GPIO_Port,C13_Pin);
@@ -228,9 +233,9 @@ int main(void)
 		else
 		{
 			if(USBHostState == HID_KEYBOARD)
-				printf("\r\n键盘断开连接\r\n");
+				printf("\r\n閿洏鏂紑杩炴帴\r\n");
 			else if(USBHostState == HID_KEYBOARD)
-				printf("\r\n鼠标断开连接\r\n");
+				printf("\r\n榧犳爣鏂紑杩炴帴\r\n");
 			USBHostState = HID_UNKNOWN;
 		}
 		

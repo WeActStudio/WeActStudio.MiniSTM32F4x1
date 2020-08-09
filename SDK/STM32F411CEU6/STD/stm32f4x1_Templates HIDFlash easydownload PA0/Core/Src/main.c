@@ -1,7 +1,7 @@
 /**
   ******************************************************************************
-	WeAct ΢�д��� 
-	>> ��׼��ʵ������
+	WeAct 微行创新 
+	>> 标准库实例例程
   ******************************************************************************
   */
 
@@ -10,11 +10,11 @@
 #include "tim.h"
 #include "gpio.h"
 
-// ȫ�ֶ��� STM32F411xE ���� STM32F401xx
-// ��ǰ���� STM32F401xx
+// 全局定义 STM32F411xE 或者 STM32F401xx
+// 当前定义 STM32F401xx
 
-// STM32F411 �ⲿ����25Mhz�����ǵ�USBʹ�ã��ڲ�Ƶ������Ϊ96Mhz
-// ��Ҫ100mhz,�����޸�system_stm32f4xx.c
+// STM32F411 外部晶振25Mhz，考虑到USB使用，内部频率设置为96Mhz
+// 需要100mhz,自行修改system_stm32f4xx.c
 
 /** @addtogroup Template_Project
   * @{
@@ -30,7 +30,12 @@ RCC_ClocksTypeDef RCC_Clocks;
 /* Private function prototypes -----------------------------------------------*/
 
 /* Private functions ---------------------------------------------------------*/
-
+ /*
+  *power by WeAct Studio
+  *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
+  *For more information please visit: https://github.com/WeActTC/MiniF4-STM32F4x1
+  *更多信息请访问：https://gitee.com/WeActTC/MiniF4-STM32F4x1
+  */
 /**
   * @brief  Main program
   * @param  None
@@ -73,23 +78,23 @@ int main(void)
 	  {
 		   tick = STD_GetTick();
 			
-       /* һ������ */			
-			 /* ʵ�ֳ�������bootloader���� */
+       /* 一键下载 */			
+			 /* 实现长按进入bootloader下载 */
 			 static uint32_t timecount = 0;
 			 if(GPIO_ReadInputDataBit(KEY_PORT,KEY_PIN) == 0)
 			 {
 				 timecount ++;
 				 if(timecount >= 500)
 				 {
-					 // ��λMCU
+					 // 复位MCU
 					 NVIC_SystemReset();
-					 // ����<KEY>һֱ���£���λ��⵽<KEY>���£�����Bootloader���ȴ���λ����¼����
-					 // ��ʱbootloader ������˸���ɿ�<KEY>����
+					 // 由于<KEY>一直按下，复位检测到<KEY>按下，留在Bootloader，等待上位机烧录命令
+					 // 此时bootloader 快速闪烁，松开<KEY>即可
 				 }
 			 }
 			 else
 				 timecount = 0;
-			 /* END һ������ */
+			 /* END 一键下载 */
 		}
 		
 #if soft_pwm
@@ -100,13 +105,13 @@ int main(void)
 	  {
 			tick1 = STD_GetTick();
 			
-			/* C13 �����Ʋ��� */
+			/* C13 呼吸灯测试 */
 			static uint8_t pwmset;
 			static uint16_t time;
 			static uint8_t timeflag;
 			static uint8_t timecount;
 
-			 /* ������ */
+			 /* 呼吸灯 */
 			if(timeflag == 0)
 			{
 				time ++;
@@ -118,10 +123,10 @@ int main(void)
 				if(time == 0) timeflag = 0;
 			}
 
-			/* ռ�ձ����� */
+			/* 占空比设置 */
 			pwmset = time/80;
 
-			/* 20ms ���� */
+			/* 20ms 脉宽 */
 			if(timecount > 20) timecount = 0;
 			else timecount ++;
 

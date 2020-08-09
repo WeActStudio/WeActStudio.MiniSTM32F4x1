@@ -18,6 +18,8 @@
 |:--:|:--:|:--:|
 |![Top](./images/STM32F401-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F401-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F401-3D-Model-Render/top&bottom.jpg "Top&Bottom View")
 
+To learn more about our studio's other products, please visit[WeAct-Studio-Product](https://github.com/WeAct-TC/WeAct-Studio-Product.git)
+
 ## Important note
 
 * Recently, online shopping platforms **have seen a large number of counterfeits**, that is, **pirated copies**. We found that these counterfeits do not have `WeAct` && `version Numbers` on the back.**And the boards are not lead-free, and we all know that lead is bad for you**.The chips are not the **latest batch**, or even **refurbished**.Not only production materials, and production quality closes nevertheless, factory inspection to elaborate (we have a special factory program to test whether each hardware qualified), so that customers in the process of using pirated will appear all sorts of puzzling problem, increase the learning cost, harm the interests of themselves, but also severely damage our `WeAct Studio` product image.

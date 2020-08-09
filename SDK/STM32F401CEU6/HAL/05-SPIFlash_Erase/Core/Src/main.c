@@ -1,14 +1,20 @@
 /* USER CODE BEGIN Header */
 
-// WeAct Studio Î¢ĞĞ¹¤×÷ÊÒ
+// WeAct Studio å¾®è¡Œå·¥ä½œå®¤
 // https://github.com/WeActTC/
-// ÌÔ±¦ËÑË÷£ºWeAct Studio
+// æ·˜å®æœç´¢ï¼šWeAct Studio
 // STM32F401CEU6 Core Board
 // Board Version: V3.0
-// ÊÕµ½µÄ°å×ÓÃ»ÓĞLogo `WeAct` && `°æ±¾ºÅ` µÄ¾ù²»ÊÇÎÒÃÇÉú²ú£¬ºÜÓĞ¿ÉÄÜÎªµÁ°æ
+// æ”¶åˆ°çš„æ¿å­æ²¡æœ‰Logo `WeAct` && `ç‰ˆæœ¬å·` çš„å‡ä¸æ˜¯æˆ‘ä»¬ç”Ÿäº§ï¼Œå¾ˆæœ‰å¯èƒ½ä¸ºç›—ç‰ˆ
 // >> 05-SPIFlash_Erase
 
-
+ /*
+  *power by WeAct Studio
+  *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
+  *For more information please visit: https://github.com/WeActTC/MiniF4-STM32F4x1
+  *æ›´å¤šä¿¡æ¯è¯·è®¿é—®ï¼šhttps://gitee.com/WeActTC/MiniF4-STM32F4x1
+  */
+ 
 /**
   ******************************************************************************
   * @file           : main.c

@@ -1,14 +1,11 @@
-# HAL sample program HAL库示例程序
-## 中文
-* `01-GPIO` GPIO 测试，按下KEY，LED快闪，KEY未按下，LED慢闪
-* `02-ADC_RTC_Test` ADC和RTC测试，使用USB CDC虚拟串口显示数据
-* `03-CDC_Standalone` USB虚拟串口例程，PA9,PA10为串口
-* `04-USBDisk+FATFS` 模拟U盘和FATFS文件系统例程，需要外接FLASH
-* `05-SPIFlash_Erase` SPI Flash 擦除例程，需要外接FLASH
+# HAL sample program
 
-## English
-* `01-GPIO`' GPIO test. Press KEY, LED flash. If KEY is not pressed, LED flash slowly
-* `02-ADC_RTC_test` ADC and RTC test, using USB CDC virtual serial port to display dataE
-* `03-CDC_Standalone` The USB virtual serial routine is as follows. PA9 and PA10 are all serial ports
-* `04-USBDisk+FATFS` Emulates usb and FATFS file system routines, requiring external FLASH
-* `05-SPIFlash_Erase`  SPI Flash Erase routines, requiring external FLASH
+* [中文版本](./README-zh.md)
+
+1. `xxxx_ADC`               is used to measure duty cycle and frequency of rectangular wave for ADC
+2. `xxxx_test`              is the factory test routine breathing lamp, USBCDC function, RTC function
+3. `XXXX_USBDisk+fatfs`     for usb drives and FATFS file system routines require external FLASH
+
+## Important note
+
+If there is no `WeAct` and `version number` on the back of the board, the chip batch is `537` or old, the stitches and board are packaged in one bag, `the board screen printing is wrong`(`3V3` is going to be labeled `V3V`), it is definitely pirated.Please comment on issues or let us know by email (WeAct_TC@163.com).

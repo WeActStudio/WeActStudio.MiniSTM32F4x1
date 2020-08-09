@@ -1,7 +1,7 @@
 /**
   ******************************************************************************
-	WeAct Î¢ÐÐ´´ÐÂ 
-	>> ±ê×¼¿âÊµÀýÀý³Ì
+	WeAct å¾®è¡Œåˆ›æ–° 
+	>> æ ‡å‡†åº“å®žä¾‹ä¾‹ç¨‹
   ******************************************************************************
   */
 
@@ -9,11 +9,11 @@
 #include "main.h"
 #include "tim.h"
 #include "gpio.h"
-// È«¾Ö¶¨Òå STM32F411xE »òÕß STM32F401xx
-// µ±Ç°¶¨Òå STM32F411xE
+// å…¨å±€å®šä¹‰ STM32F411xE æˆ–è€… STM32F401xx
+// å½“å‰å®šä¹‰ STM32F411xE
 
-// STM32F411 Íâ²¿¾§Õñ25Mhz£¬¿¼ÂÇµ½USBÊ¹ÓÃ£¬ÄÚ²¿ÆµÂÊÉèÖÃÎª96Mhz
-// ÐèÒª100mhz,×ÔÐÐÐÞ¸Äsystem_stm32f4xx.c
+// STM32F411 å¤–éƒ¨æ™¶æŒ¯25Mhzï¼Œè€ƒè™‘åˆ°USBä½¿ç”¨ï¼Œå†…éƒ¨é¢‘çŽ‡è®¾ç½®ä¸º96Mhz
+// éœ€è¦100mhz,è‡ªè¡Œä¿®æ”¹system_stm32f4xx.c
 
 /** @addtogroup Template_Project
   * @{
@@ -29,7 +29,12 @@ RCC_ClocksTypeDef RCC_Clocks;
 /* Private function prototypes -----------------------------------------------*/
 
 /* Private functions ---------------------------------------------------------*/
-
+ /*
+  *power by WeAct Studio
+  *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
+  *For more information please visit: https://github.com/WeActTC/MiniF4-STM32F4x1
+  *æ›´å¤šä¿¡æ¯è¯·è®¿é—®ï¼šhttps://gitee.com/WeActTC/MiniF4-STM32F4x1
+  */
 /**
   * @brief  Main program
   * @param  None
@@ -63,13 +68,13 @@ int main(void)
   while (1)
   {
 #if soft_pwm
-		/* C13 ºôÎüµÆ²âÊÔ */
+		/* C13 å‘¼å¸ç¯æµ‹è¯• */
 		static uint8_t pwmset;
 		static uint16_t time;
 		static uint8_t timeflag;
 		static uint8_t timecount;
 
-		 /* ºôÎüµÆ */
+		 /* å‘¼å¸ç¯ */
 		if(timeflag == 0)
 		{
 			time ++;
@@ -81,10 +86,10 @@ int main(void)
 			if(time == 0) timeflag = 0;
 		}
 
-		/* Õ¼¿Õ±ÈÉèÖÃ */
+		/* å ç©ºæ¯”è®¾ç½® */
 		pwmset = time/80;
 
-		/* 20ms Âö¿í */
+		/* 20ms è„‰å®½ */
 		if(timecount > 20) timecount = 0;
 		else timecount ++;
 

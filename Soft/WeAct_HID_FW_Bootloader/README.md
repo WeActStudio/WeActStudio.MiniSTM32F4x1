@@ -1,13 +1,13 @@
-# Important note
-
-If there is no `WeAct` and `version number` on the back of the board, the chip batch is `537` or old, the stitches and board are packaged in one bag, `the board screen printing is wrong`(`3V3` is going to be labeled `V3V`), it is definitely pirated.Please comment on issues or let us know by email (zhuab1997@outlook.com).
-
 # WeAct HID bootloader
+
+* [中文版本](./README-zh.md)
+
+## Important note
+
+If there is no `WeAct` and `version number` on the back of the board, the chip batch is `537` or old, the stitches and board are packaged in one bag, `the board screen printing is wrong`(`3V3` is going to be labeled `V3V`), it is definitely pirated.Please comment on issues or let us know by email (WeAct_TC@163.com).
 
 This software refers to the following source code, but it is not modified from the following source code
 STM32_HID_bootloader https://github.com/Serasidis/STM32_HID_Bootloader.git
-
-> [中文使用说明](/Soft/WeAct_HID_FW_Bootloader/README_zh-CN.md)
 
 > Bootloader/  ------------------------  Bootloader firmware Default APP forwarding address: 0x8004000
 
@@ -21,8 +21,8 @@ STM32_HID_bootloader https://github.com/Serasidis/STM32_HID_Bootloader.git
 
 |ROM Addr|
 |:--:|
-|0x8000000 Bootloader|       
-|16KB |        
+|0x8000000 Bootloader|
+|16KB |
 |0x8004000 APP|  
 |..... |
 |END|
@@ -34,26 +34,31 @@ Core board There is no HID device when USB is connected to the computer, there i
 
 The APP program can be debugged by the debugger without any impact.
 
-## Enter the bootloader method:
-1. Hold down the <KEY key>, power on or reset again, and the C13 LED will blink to release
+## Enter the bootloader method
+
+1. Hold down the \<KEY key>, power on or reset again, and the C13 LED will blink to release
 2. APP enters the bootloader reference stm32f401_test_APP 0x8004000.zip project
 
 ## In the bootloader:
-1. <KEY key> Click to turn on or off the C13 LED
-2. The SW debug port is open and can be programmed by the debugger without entering DFU mode
-3. Long press the <KEY key>, the C13 LED flashes and you can release it，MCU will enter Embedded bootloader
 
-## Exit the bootloader method:
-1. Reset MCU, reset key / upper computer click <MCU reset>
-2. Long press the <KEY key>, the C13 LED flashes and you can release it
+1. \<KEY key> Click to turn on or off the C13 LED
+2. The SW debug port is open and can be programmed by the debugger without entering DFU mode
+3. Long press the \<KEY key>, the C13 LED flashes and you can release it，MCU will enter Embedded bootloader
+
+## Exit the bootloader method
+
+1. Reset MCU, reset key / upper computer click \<MCU reset>
+2. Long press the \<KEY key>, the C13 LED flashes and you can release it
 
 ## HID bootloader V1.1
+
 1. Fix Bugs,
-2. Long press the <KEY key>, MCU will enter Embedded bootloader,ISP Mode
+2. Long press the \<KEY key>, MCU will enter Embedded bootloader,ISP Mode
 3. Remove double-click function
 4. Reduce the size of bootloader firmware
 
 ## HID bootloader V1.2
+
 1. Fixed a problem with systick not closing
- 
+
 Note: Bootloader and APP programming software are not open source

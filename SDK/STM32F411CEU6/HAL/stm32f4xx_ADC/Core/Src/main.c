@@ -80,7 +80,12 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+ /*
+  *power by WeAct Studio
+  *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
+  *For more information please visit: https://github.com/WeActTC/MiniF4-STM32F4x1
+  *æ›´å¤šä¿¡æ¯è¯·è®¿é—®ï¼šhttps://gitee.com/WeActTC/MiniF4-STM32F4x1
+  */
 /* USER CODE END 0 */
 
 /**
@@ -134,11 +139,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  /* Ê¹ÓÃadcÊ¶±ğ¾ØĞÎ²¨ ÆµÂÊÕ¼¿Õ±È */
+	  /* ä½¿ç”¨adcè¯†åˆ«çŸ©å½¢æ³¢ é¢‘ç‡å ç©ºæ¯” */
 	  
-	  /* ´Óringbuff¶ÁÈ¡adcÊı¾İ */
+	  /* ä»ringbuffè¯»å–adcæ•°æ® */
 		len = ringbuff_read(&adcbuff,read,sizeof(read));
-	  /* Êı¾İ´¦Àí Ã¿10¸ö´¦ÀíÒ»´Î*/
+	  /* æ•°æ®å¤„ç† æ¯10ä¸ªå¤„ç†ä¸€æ¬¡*/
 	  for(uint8_t i=0;i<(len/2);i++) 
 	  {
 		  static uint32_t th,tl,flag;
@@ -159,7 +164,7 @@ int main(void)
 	  {
 			len_send = sprintf((char *)&send,"freq:%.2f hz,Duty:%.2f%%\r\n",freq,duty*100);
 		  
-#if 1	 /* ´òÓ¡ringbuff²ÎÊıÊı¾İ */   
+#if 1	 /* æ‰“å°ringbuffå‚æ•°æ•°æ® */   
 	size_t r, w, f, e;
     r = adcbuff.r;
     w = adcbuff.w;

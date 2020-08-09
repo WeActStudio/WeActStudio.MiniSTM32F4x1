@@ -1,11 +1,11 @@
 /* USER CODE BEGIN Header */
 
-// WeAct Studio Î¢ĞĞ¹¤×÷ÊÒ
+// WeAct Studio å¾®è¡Œå·¥ä½œå®¤
 // https://github.com/WeActTC/
-// ÌÔ±¦ËÑË÷£ºWeAct Studio
+// æ·˜å®æœç´¢ï¼šWeAct Studio
 // STM32F401CEU6 Core Board
 // Board Version: V3.0
-// ÊÕµ½µÄ°å×ÓÃ»ÓĞLogo `WeAct` && `°æ±¾ºÅ` µÄ¾ù²»ÊÇÎÒÃÇÉú²ú£¬ºÜÓĞ¿ÉÄÜÎªµÁ°æ
+// æ”¶åˆ°çš„æ¿å­æ²¡æœ‰Logo `WeAct` && `ç‰ˆæœ¬å·` çš„å‡ä¸æ˜¯æˆ‘ä»¬ç”Ÿäº§ï¼Œå¾ˆæœ‰å¯èƒ½ä¸ºç›—ç‰ˆ
 // >> 02-ADC_RTC_Test
 
 /**
@@ -84,14 +84,19 @@ static void LED_Blink(uint32_t Hdelay,uint32_t Ldelay)
   */
 static void RTC_CalendarGet(RTC_DateTypeDef *sdatestructureget,RTC_TimeTypeDef *stimestructureget)
 {
-  /* ±ØĞëÍ¬Ê±»ñÈ¡Ê±¼äºÍÈÕÆÚ ²»È»»áµ¼ÖÂÏÂ´ÎRTC²»ÄÜ¶ÁÈ¡ */
+  /* å¿…é¡»åŒæ—¶è·å–æ—¶é—´å’Œæ—¥æœŸ ä¸ç„¶ä¼šå¯¼è‡´ä¸‹æ¬¡RTCä¸èƒ½è¯»å– */
   /* Both time and date must be obtained or RTC cannot be read next time */
   /* Get the RTC current Time */
   HAL_RTC_GetTime(&hrtc, stimestructureget, RTC_FORMAT_BIN);
   /* Get the RTC current Date */
   HAL_RTC_GetDate(&hrtc, sdatestructureget, RTC_FORMAT_BIN);
 }
-
+ /*
+  *power by WeAct Studio
+  *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
+  *For more information please visit: https://github.com/WeActTC/MiniF4-STM32F4x1
+  *æ›´å¤šä¿¡æ¯è¯·è®¿é—®ï¼šhttps://gitee.com/WeActTC/MiniF4-STM32F4x1
+  */
 /* USER CODE END 0 */
 
 /**
@@ -178,10 +183,10 @@ int main(void)
 		HAL_ADC_Stop(&hadc1);
 		
 		#define V25  (760)  // mV, V25: 0.76V,datasheet P112
-		#define Avg_Slope ((float)2.5) // mV/¡ãC
+		#define Avg_Slope ((float)2.5) // mV/Â°C
 		
 		adc1_in0  = uhADCxInputVoltage[0]; // mv
-		tempsensor = ((float)uhADCxInputVoltage[1] - V25)/Avg_Slope + 25; // ¡ãC
+		tempsensor = ((float)uhADCxInputVoltage[1] - V25)/Avg_Slope + 25; // Â°C
 		vrefint    = uhADCxInputVoltage[2]; // type. 1200mV
 		
 		size=sprintf((char *)&text," PA0: %4dmV\r\nVref: %4dmV\r\ntemp: %.1f 'C\r\n",adc1_in0,vrefint,tempsensor);

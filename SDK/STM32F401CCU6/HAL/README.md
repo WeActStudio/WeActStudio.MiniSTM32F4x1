@@ -1,3 +1,5 @@
+# STM32F401CCU6 stopped maintenance on 2020.8.Has been upgraded to STM32F401CEU6 with more memory
+
 # HAL sample program HAL库示例程序
 1. `XXXX_ADC`            为ADC使用例程 测量矩形波占空比、频率
 2. `XXXX_test_xx`        为出厂测试例程 呼吸灯、USBCDC功能、RTC功能
