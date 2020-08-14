@@ -52,7 +52,9 @@
 2. ~~[WAVGAT Official Store](https://www.aliexpress.com/item/4000084631884.html)~~ 涉嫌出售盗版，商品宣传使用正版图片
 3. ~~[WAVGAT authorization Store](https://www.aliexpress.com/item/4000282242626.html)~~ 出售盗版
 4. ~~[AITEXM Store](https://www.aliexpress.com/item/4001098711269.html)~~ 涉嫌出售盗版，商品宣传使用正版图片
-5. To be updated
+5. ~~[Win win.](https://www.aliexpress.com/item/4001049840288.html)~~ 出售盗版
+6. ~~[SZ Aitexm Store](https://www.aliexpress.com/item/4001062944589.html)~~ 出售盗版
+7. To be updated
 
 > 这些盗版商家宣传图片盗用正版产品进行宣传，并且使用我们提供的资料，实际收到的产品与宣传产品完全不同，丝印错误，使用翻新，年份久远的芯片，劣质生产材料，客户使用体验十分的差，请大家仔细甄别，不要让自己的权益收到伤害！！！
 
