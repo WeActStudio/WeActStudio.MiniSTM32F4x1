@@ -54,7 +54,10 @@ To learn more about our studio's other products, please visit[WeAct-Studio-Produ
 4. ~~[AITEXM Store](https://www.aliexpress.com/item/4001098711269.html)~~ Suspected of selling pirated goods, the use of legitimate promotional pictures
 5. ~~[Win win.](https://www.aliexpress.com/item/4001049840288.html)~~ Sale of pirated
 6. ~~[SZ Aitexm Store](https://www.aliexpress.com/item/4001062944589.html)~~ Sale of pirated
-7. To be updated
+7. ~~[SAMIORE Store](https://www.aliexpress.com/item/4001116395973.html)~~ Sale of pirated
+8. ~~[TENSTAR Store](https://www.aliexpress.com/item/4000542455017.html)~~ Sale of pirated
+9. ~~[EQV Official Store](https://www.aliexpress.com/item/1005001294256867.html)~~ Sale of pirated
+10. To be updated
 
 > These pirated merchants publicize pictures and steal genuine products for publicity, and use the information we provide, actually received totally different products and promotional products, screen printing error, using renovation, older chips, inferior material production, customer experience is very poor, please carefully identifying, don't let the noise of their rights and interests receive damage!!!!!!
 
