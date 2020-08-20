@@ -57,7 +57,10 @@
 7. ~~[SAMIORE Store](https://www.aliexpress.com/item/4001116395973.html)~~ 出售盗版
 8. ~~[TENSTAR Store](https://www.aliexpress.com/item/4000542455017.html)~~ 出售盗版
 9. ~~[EQV Official Store](https://www.aliexpress.com/item/1005001294256867.html)~~ 出售盗版
-10. To be updated
+10. ~~[GREAT WALL Electronics Co., Ltd.](https://www.aliexpress.com/item/4001113377360.html)~~ 出售盗版
+11. ~~[GREATZT Store](https://www.aliexpress.com/item/4000109646917.html)~~ 出售盗版
+12. ~~[Great IT electronic components co., LTD](https://www.aliexpress.com/item/4000069263843.html)~~ 出售盗版
+13. To be updated
 
 > 这些盗版商家宣传图片盗用正版产品进行宣传，并且使用我们提供的资料，实际收到的产品与宣传产品完全不同，丝印错误，使用翻新，年份久远的芯片，劣质生产材料，客户使用体验十分的差，请大家仔细甄别，不要让自己的权益收到伤害！！！
 
