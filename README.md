@@ -57,7 +57,10 @@ To learn more about our studio's other products, please visit[WeAct-Studio-Produ
 7. ~~[SAMIORE Store](https://www.aliexpress.com/item/4001116395973.html)~~ Sale of pirated
 8. ~~[TENSTAR Store](https://www.aliexpress.com/item/4000542455017.html)~~ Sale of pirated
 9. ~~[EQV Official Store](https://www.aliexpress.com/item/1005001294256867.html)~~ Sale of pirated
-10. To be updated
+10. ~~[GREAT WALL Electronics Co., Ltd.](https://www.aliexpress.com/item/4001113377360.html)~~ Sale of pirated
+11. ~~[GREATZT Store](https://www.aliexpress.com/item/4000109646917.html)~~ Sale of pirated
+12. ~~[Great IT electronic components co., LTD](https://www.aliexpress.com/item/4000069263843.html)~~ Sale of pirated
+13. To be updated
 
 > These pirated merchants publicize pictures and steal genuine products for publicity, and use the information we provide, actually received totally different products and promotional products, screen printing error, using renovation, older chips, inferior material production, customer experience is very poor, please carefully identifying, don't let the noise of their rights and interests receive damage!!!!!!
 
