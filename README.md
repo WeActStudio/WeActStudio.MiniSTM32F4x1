@@ -34,13 +34,14 @@ To learn more about our studio's other products, please visit[WeAct-Studio-Produ
 
 ### Taobao sells pirated links (beware of being cheated, if you buy by accident, we hope you can report the bad comments, so as not to let others be cheated)
 
-1. ~~[深圳市育松电子](https://item.taobao.com/item.htm?spm=a230r.1.14.139.7e3f1465VxCgzT&id=596986293640&ns=1&abbucket=5#detail)~~ Sale of pirated
-2. ~~[eixpsy旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.16.12f5a581svM8ak&id=611089230357&cm_id=140105335569ed55e27b&abbucket=8)~~ Sale of pirated
-3. ~~[深圳市海瑟威电子商行](https://item.taobao.com/item.htm?spm=a230r.1.14.38.12f5a581svM8ak&id=588648744621&ns=1&abbucket=8#detail)~~ Sale of pirated
-4. ~~[佳仕通数码专营店](https://detail.tmall.com/item.htm?spm=a230r.1.14.92.12f5a581svM8ak&id=611294799545&ns=1&abbucket=8)~~ Sale of pirated
-5. ~~[瑞仿科技](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-12887250463.13.59083066X4aKPg&id=618747430812)~~ Sale of pirated
-6. ~~[绿深旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.67.1f455f851IlrO2&id=619121595543)~~ Sale of pirated
-7. ~~[芯城兴旗舰店](https://detail.tmall.com/item.htm?id=618685960543)~~ Sale of pirated
+1. ~~[全球易创客空间](https://item.taobao.com/item.htm?spm=a230r.1.14.60.7e3f1465cbQfqs&id=610836924716&ns=1&abbucket=9#detail)~~ 出售盗版,非常严重
+2. ~~[深圳市育松电子](https://item.taobao.com/item.htm?spm=a230r.1.14.139.7e3f1465VxCgzT&id=596986293640&ns=1&abbucket=5#detail)~~ Sale of pirated
+3. ~~[eixpsy旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.16.12f5a581svM8ak&id=611089230357&cm_id=140105335569ed55e27b&abbucket=8)~~ Sale of pirated
+4. ~~[深圳市海瑟威电子商行](https://item.taobao.com/item.htm?spm=a230r.1.14.38.12f5a581svM8ak&id=588648744621&ns=1&abbucket=8#detail)~~ Sale of pirated
+5. ~~[佳仕通数码专营店](https://detail.tmall.com/item.htm?spm=a230r.1.14.92.12f5a581svM8ak&id=611294799545&ns=1&abbucket=8)~~ Sale of pirated
+6. ~~[瑞仿科技](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-12887250463.13.59083066X4aKPg&id=618747430812)~~ Sale of pirated
+7. ~~[绿深旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.67.1f455f851IlrO2&id=619121595543)~~ Sale of pirated
+8. ~~[芯城兴旗舰店](https://detail.tmall.com/item.htm?id=618685960543)~~ Sale of pirated
 
 ### `Aliexpress` legal purchase link
 
