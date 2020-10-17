@@ -41,8 +41,8 @@ void WeAct_Core_board_early_init(void);
 #define MICROPY_HW_UART6_TX     (pin_A11)
 #define MICROPY_HW_UART6_RX     (pin_A12)
 
-#define MICROPY_HW_UART_REPL        PYB_UART_1
-#define MICROPY_HW_UART_REPL_BAUD   115200
+/* #define MICROPY_HW_UART_REPL        PYB_UART_1
+#define MICROPY_HW_UART_REPL_BAUD   115200 */
 
 // I2C busses
 #define MICROPY_HW_I2C1_SCL (pin_B6)        // Arduino D15, pin 3 on CN10

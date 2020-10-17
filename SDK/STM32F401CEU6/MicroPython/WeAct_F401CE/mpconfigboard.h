@@ -1,4 +1,4 @@
-#define MICROPY_HW_BOARD_NAME       "WeAct_Core"
+#define MICROPY_HW_BOARD_NAME       "WeAct Studio Core Board"
 #define MICROPY_HW_MCU_NAME         "STM32F401CE"
 
 /* 启用 THREAD */ 
@@ -12,6 +12,8 @@ void WeAct_Core_board_early_init(void);
    use the external flash to change to 0 */
 #define MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE (1)
 
+#define WEACT_STUDIO_HSE_IS_8MHZ    (0)
+
 #define MICROPY_HW_HAS_SWITCH       (1)
 #define MICROPY_HW_HAS_FLASH        (1)
 #define MICROPY_HW_ENABLE_RTC       (1)
@@ -22,8 +24,15 @@ void WeAct_Core_board_early_init(void);
 #define MICROPY_HW_ENABLE_RNG       (0)
 #define MICROPY_HW_ENABLE_DAC       (0)
 
-// HSE is 25MHz, CPU freq set to 84MHz
+// HSE is 8/25MHz, CPU freq set to 84MHz
+#if WEACT_STUDIO_HSE_IS_8MHZ == 1
+#define HSE_VALUE    ((uint32_t)8000000)
+#define MICROPY_HW_CLK_PLLM (8)
+#else
+#define HSE_VALUE    ((uint32_t)25000000)
 #define MICROPY_HW_CLK_PLLM (25)
+#endif
+
 #define MICROPY_HW_CLK_PLLN (336)
 #define MICROPY_HW_CLK_PLLP (RCC_PLLP_DIV4)
 #define MICROPY_HW_CLK_PLLQ (7)

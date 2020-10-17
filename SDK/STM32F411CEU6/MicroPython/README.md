@@ -10,6 +10,8 @@ If there is no `WeAct` and `version number` on the back of the board, the chip b
 
 > firmware_xxxxxxx_stm32f411_vxx_v1.12-540 The latest
 
+Restore factory Settings: Hold down the KEY and click the Reset KEY. The blue LED flashes three times. Release the KEY to restore factory Settings
+
 4MB SPI Flash:
 
 * Hardware version: Version numberV2.1，V2.2，V3.0 Corresponding firmware is：`firmware_4m_flash_stm32f411_v21+&&V13_v1.12-540.hex`

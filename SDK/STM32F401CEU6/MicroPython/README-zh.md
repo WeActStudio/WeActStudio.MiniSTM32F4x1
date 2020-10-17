@@ -8,22 +8,23 @@
 
 ## WeAct Studio STM32F401CEU6
 
-板子没有焊接flash刷入名称含有`internal`的固件，焊接了flash，根据flash的大小选择对应的固件`8M`,`4M`。
+板子没有焊接flash刷入名称含有`internal`的固件，焊接了flash，根据flash的大小选择对应的固件`8M`,`4M`，8MHz晶振版本请进`8MHz_Version`文件夹。
+
+恢复出厂设置：按住KEY键，单击复位键，蓝色LED闪烁三下，松开KEY键，即可恢复出厂设置
+
 > 最新固件为：firmware_xxxxxxx_stm32f401_vxx_v1.12-540
 
 4MB SPI Flash:
 
-* 硬件版本：版本号 V2.1，V2.2，V3.0对应固件为：firmware_4m_flash_stm32f401_v21+&&V13_v1.12-540.hex
-
-* 硬件版本：版本号V2.0对应固件为：firmware_4m_flash_stm32f401_v20_v1.12-35.hex
+* 硬件版本：V3.0对应固件为：firmware_4m_flash_stm32f401ce_v30_v1.12-540.hex
 
 8MB SPI Flash:
 
-* 硬件版本：版本号 V2.1，V2.2，V3.0对应固件为：firmware_8m_flash_stm32f401_v21+&&V13_v1.12-540.hex
+* 硬件版本：V3.0对应固件为：firmware_8m_flash_stm32f401ce_v30_v1.12-540.hex
 
 内置Flash Internal Rom:
 
-* firmware_internal_rom_stm32f401_v1.12-540.hex
+* firmware_internal_rom_stm32f401ce_v30_v1.12-540.hex
 
 遇到特殊问题需要擦除外置SPI Flash的：
 > 刷入该固件可以擦除外挂的SPI Flash，`LED` 50ms快闪为识别Flash失败，长亮为擦除进行中，0.5s快闪为擦除成功，0.5s慢闪擦除失败
