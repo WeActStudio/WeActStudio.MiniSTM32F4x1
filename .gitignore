@@ -10,6 +10,8 @@
 *.uvgui.*
 *.uvguix.*
 
+UNSupport/
+
 *.swp
 *.save
 .project

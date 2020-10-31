@@ -9,6 +9,6 @@ If there is no `WeAct` and `version number` on the back of the board, the chip b
 |Dir name|Explain
 |:--:|:--:|
 |CMSIS-DAP|CMSIS-DAP Firmware allows the core board to be brushed into the download debugger|
-|STM32F401CCU6|STM32F401CCU6 related information. It has been discontinued and is no longer maintained|
+|MicroPython_Example|MicroPython Example|
 |STM32F401CEU6|STM32F401CEU6 related information.STM32F401CCU6 upgrade, more memory|
 |STM32F411CEU6|STM32F411CEU6 related information.|
