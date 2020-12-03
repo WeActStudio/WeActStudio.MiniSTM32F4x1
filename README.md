@@ -45,8 +45,8 @@ To learn more about our studio's other products, please visit[WeAct-Studio-Produ
 
 ### `Aliexpress` legal purchase link
 
-[WeAct Studio WeiXing Store](https://www.aliexpress.com/store/910567080)
-[Sincere Company Store](https://www.aliexpress.com/item/4000346695587.html)
+1. [WeAct Studio WeiXing Store](https://www.aliexpress.com/store/910567080)
+2. [Sincere Company Store](https://www.aliexpress.com/item/4000346695587.html)
 
 ### `Aliexpress` sells pirated links (beware of being cheated, if you buy by accident, we hope you can report negative comments, so as not to let others be deceived)
 
