@@ -26,10 +26,10 @@ void WeAct_Core_board_early_init(void);
 
 // HSE is 8/25MHz, CPU freq set to 84MHz
 #if WEACT_STUDIO_HSE_IS_8MHZ == 1
-#define HSE_VALUE    ((uint32_t)8000000)
+//#define HSE_VALUE    ((uint32_t)8000000)
 #define MICROPY_HW_CLK_PLLM (8)
 #else
-#define HSE_VALUE    ((uint32_t)25000000)
+//#define HSE_VALUE    ((uint32_t)25000000)
 #define MICROPY_HW_CLK_PLLM (25)
 #endif
 
@@ -47,8 +47,8 @@ void WeAct_Core_board_early_init(void);
 #define MICROPY_HW_UART6_TX     (pin_A11)
 #define MICROPY_HW_UART6_RX     (pin_A12)
 
-#define MICROPY_HW_UART_REPL        PYB_UART_1
-#define MICROPY_HW_UART_REPL_BAUD   115200
+//#define MICROPY_HW_UART_REPL        PYB_UART_1
+//#define MICROPY_HW_UART_REPL_BAUD   115200
 
 // I2C busses
 #define MICROPY_HW_I2C1_SCL (pin_B6)
@@ -91,7 +91,6 @@ void WeAct_Core_board_early_init(void);
 #define MICROPY_HW_RTC_USE_CALOUT   (1)
 
 // use external SPI flash for storage
-// 容量大小定义 单位：Mbit
 // 4MB Flash 32Mbit
 // 8MB Flash 64Mbit
 // 16MB Flash 128Mbit
@@ -105,6 +104,7 @@ void WeAct_Core_board_early_init(void);
 // 使用外置spi flash
 #if !MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE
 
+#define MICROPY_HW_SPIFLASH_ENABLE_CACHE (1)
 extern const struct _mp_spiflash_config_t spiflash_config;
 extern struct _spi_bdev_t spi_bdev;
 #define MICROPY_HW_BDEV_IOCTL(op, arg) ( \
@@ -114,6 +114,7 @@ extern struct _spi_bdev_t spi_bdev;
 )
 #define MICROPY_HW_BDEV_READBLOCKS(dest, bl, n) spi_bdev_readblocks(&spi_bdev, (dest), (bl), (n))
 #define MICROPY_HW_BDEV_WRITEBLOCKS(src, bl, n) spi_bdev_writeblocks(&spi_bdev, (src), (bl), (n))
+#define MICROPY_HW_BDEV_SPIFLASH_EXTENDED (&spi_bdev) // for extended block protocol
 
 #endif
 

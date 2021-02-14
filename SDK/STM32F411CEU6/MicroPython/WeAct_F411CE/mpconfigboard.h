@@ -1,4 +1,4 @@
-#define MICROPY_HW_BOARD_NAME       "WeAct_Core" // 可修改为自己名称
+#define MICROPY_HW_BOARD_NAME       "WeAct Studio Core" 
 #define MICROPY_HW_MCU_NAME         "STM32F411CE"
 
 /* 启用 THREAD */ 
@@ -7,7 +7,7 @@
 #define MICROPY_BOARD_EARLY_INIT    WeAct_Core_board_early_init
 void WeAct_Core_board_early_init(void);
 
-/* BOARD Ver 2.0 set 1 ，other set 0 ex.V1.3,V2.1,V3.0 */
+/* BOARD Ver 2.0 set 1 ，other set 0 ex.V1.3,V2.1 */
 #define VERSION_V20 (0)
 
 /* 使用内置flash改1 使用外置flash改0 */
@@ -41,8 +41,8 @@ void WeAct_Core_board_early_init(void);
 #define MICROPY_HW_UART6_TX     (pin_A11)
 #define MICROPY_HW_UART6_RX     (pin_A12)
 
-/* #define MICROPY_HW_UART_REPL        PYB_UART_1
-#define MICROPY_HW_UART_REPL_BAUD   115200 */
+// #define MICROPY_HW_UART_REPL        PYB_UART_1
+// #define MICROPY_HW_UART_REPL_BAUD   115200
 
 // I2C busses
 #define MICROPY_HW_I2C1_SCL (pin_B6)        // Arduino D15, pin 3 on CN10
@@ -96,11 +96,10 @@ void WeAct_Core_board_early_init(void);
 #define MICROPY_HW_RTC_USE_CALOUT   (1)
 
 // use external SPI flash for storage
-// 容量大小定义 单位：Mbit
 // 4MB Flash 32Mbit
 // 8MB Flash 64Mbit
 // 16MB Flash 128Mbit
-#define MICROPY_HW_SPIFLASH_SIZE_BITS (32 * 1024 * 1024) // 4MB Flash 32Mbit
+#define MICROPY_HW_SPIFLASH_SIZE_BITS (32 * 1024 * 1024)
 
 #define MICROPY_HW_SPIFLASH_CS      (pin_A4)
 #define MICROPY_HW_SPIFLASH_SCK     (pin_A5)
@@ -117,6 +116,7 @@ void WeAct_Core_board_early_init(void);
 // 使用外置spi flash
 #if !MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE
 
+#define MICROPY_HW_SPIFLASH_ENABLE_CACHE (1)
 extern const struct _mp_spiflash_config_t spiflash_config;
 extern struct _spi_bdev_t spi_bdev;
 #define MICROPY_HW_BDEV_IOCTL(op, arg) ( \
@@ -126,6 +126,7 @@ extern struct _spi_bdev_t spi_bdev;
 )
 #define MICROPY_HW_BDEV_READBLOCKS(dest, bl, n) spi_bdev_readblocks(&spi_bdev, (dest), (bl), (n))
 #define MICROPY_HW_BDEV_WRITEBLOCKS(src, bl, n) spi_bdev_writeblocks(&spi_bdev, (src), (bl), (n))
+#define MICROPY_HW_BDEV_SPIFLASH_EXTENDED (&spi_bdev) // for extended block protocol
 
 #endif
 

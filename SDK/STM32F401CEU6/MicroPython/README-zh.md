@@ -12,24 +12,24 @@
 
 恢复出厂设置：按住KEY键，单击复位键，蓝色LED闪烁三下，松开KEY键，即可恢复出厂设置
 
-> 最新固件为：firmware_xxxxxxx_stm32f401_vxx_v1.12-540
+> 最新固件为：`firmware_xxxxxxx_stm32f401_vxx_v1.14-7`
 
 4MB SPI Flash:
 
-* 硬件版本：V3.0对应固件为：firmware_4m_flash_stm32f401ce_v30_v1.12-540.hex
+* 硬件版本：V3.0对应固件为：`firmware_4m_flash_stm32f401ce_v30_v1.xx-xxx.hex`
 
 8MB SPI Flash:
 
-* 硬件版本：V3.0对应固件为：firmware_8m_flash_stm32f401ce_v30_v1.12-540.hex
+* 硬件版本：V3.0对应固件为：`firmware_8m_flash_stm32f401ce_v30_v1.xx-xxx.hex`
 
 内置Flash Internal Rom:
 
-* firmware_internal_rom_stm32f401ce_v30_v1.12-540.hex
+* `firmware_internal_rom_stm32f401ce_v30_v1.xx-xxx.hex`
 
 遇到特殊问题需要擦除外置SPI Flash的：
 > 刷入该固件可以擦除外挂的SPI Flash，`LED` 50ms快闪为识别Flash失败，长亮为擦除进行中，0.5s快闪为擦除成功，0.5s慢闪擦除失败
 
-* SPIFlash_Erase_Firmware.hex
+* `SPIFlash_Erase_Firmware.hex`
 
 > micropython入门使用中文教程：<https://www.weact-tc.cn/2020/01/01/micropython/>
 

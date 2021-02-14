@@ -8,22 +8,22 @@ If there is no `WeAct` and `version number` on the back of the board, the chip b
 
 ## WeAct Studio STM32F411CEU6
 
-> firmware_xxxxxxx_stm32f411_vxx_v1.12-540 The latest
+> `firmware_xxxxxxx_stm32f411_vxx_v1.14-7` The latest
 
 Restore factory Settings: Hold down the KEY and click the Reset KEY. The blue LED flashes three times. Release the KEY to restore factory Settings
 
 4MB SPI Flash:
 
-* Hardware version: Version numberV2.1，V2.2，V3.0 Corresponding firmware is：`firmware_4m_flash_stm32f411_v21+&&V13_v1.12-540.hex`
+* Hardware version: Version numberV2.1，V2.2，V3.0 Corresponding firmware is：`firmware_4m_flash_stm32f411_v21+&&V13_v1.xx-xxx.hex`
 * Hardware version: Version number：`firmware_4m_flash_stm32f411_v20_v1.12-35.hex`
 
 8MB SPI Flash:
 
-* Hardware version: Version numberV2.1，V2.2，V3.0 Corresponding firmware is: `firmware_8m_flash_stm32f411_v21+&&V13_v1.12-540.hex`
+* Hardware version: Version numberV2.1，V2.2，V3.0 Corresponding firmware is: `firmware_8m_flash_stm32f411_v21+&&V13_v1.xx-xxx.hex`
 
 Internal Rom Flash:
 
-* `firmware_internal_rom_stm32f411_v1.12-540.hex`
+* `firmware_internal_rom_stm32f411_v1.xx-xxx.hex`
 
 Special problems need to be erased SPI Flash:
 > Brush into the firmware to erase the exteranl SPI Flash，`LED` 50ms Flash indicates Flash failure, long light indicates wipe in progress, 0.5s Flash indicates successful wipe, and 0.5s slow Flash erase fails
