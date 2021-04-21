@@ -8,6 +8,16 @@ If there is no `WeAct` and `version number` on the back of the board, the chip b
 
 ![STM32F401 3D View](/images/STM32F4x1-V30_3D.jpg)
 
+## V3.1
+
+> Bottom add short circuit pad, welding pad, `USB C` support output `5V`, support `USB Host`
+
+> Change LDO to `ME6206A33XG` for easy maintenance
+
+> Metallized Logo
+
+> Size unchanged, pin definition unchanged
+
 ## V3.0
 
 > Button ` KEY ` series 330Ω resistance, prevent user settings ` KEY ` pin for the output mode after the button press cause short circuit, and the appearance remains unchanged.Process improvement, use Lead-Free process.
