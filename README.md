@@ -18,7 +18,7 @@
 |:--:|:--:|:--:|
 |![Top](./images/STM32F401-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F401-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F401-3D-Model-Render/top&bottom.jpg "Top&Bottom View")
 
-To learn more about our studio's other products, please visit[WeAct-Studio-Product](https://github.com/WeAct-TC/WeAct-Studio-Product.git)
+To learn more about our studio's other products, please visit[WeAct-Studio-Product](https://github.com/WeActTC/WeAct-Studio-Product.git)
 
 ## Important note
 
@@ -93,7 +93,7 @@ We do not produce the boards that we received without the Logo `WeAct` && `versi
 
 * Support for MicroPython programming with available MicroPython firmware
 
-* Support for Arduino programming, see details[Github](https://www.aliexpress.com/item/4001098711269.html)
+* Support for Arduino programming, see details[Github](https://github.com/stm32duino/Arduino_Core_STM32)
 
 * Version V3.0, there are three keys, reset key, BOOT0 key, user key
 

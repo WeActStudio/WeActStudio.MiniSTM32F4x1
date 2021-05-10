@@ -92,7 +92,7 @@
 
 * 支持MicroPython编程，提供可用的MicroPython固件
 
-* 支持Arduino编程，详情见[Github](https://www.aliexpress.com/item/4001098711269.html)
+* 支持Arduino编程，详情见[Github](https://github.com/stm32duino/Arduino_Core_STM32)
 
 * 版本为V3.0，有3个按键，复位键，BOOT0键，用户按键
 
