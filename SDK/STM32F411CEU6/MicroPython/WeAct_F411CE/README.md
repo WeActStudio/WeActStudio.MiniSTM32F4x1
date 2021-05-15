@@ -17,18 +17,13 @@ git submodule update --init
 cd mpy-cross
 make -j4
 cd ../ports/stm32/boards
-```
-
-Copy the `WeAct_F411CE` in the current folder to the appropriate file on your Linux system
-
-``` c
-Copy WeAct_F411CE to micropython/ports/stm32/boards
+git clone https://github.com/WeActTC/WeAct_F411CE-MicroPython.git WeAct_F411CE
 ```
 
 Then
 
 ``` c
-cd YourPath/micropython/ports/stm32/
+cd ..
 
 make BOARD=WeAct_F411CE CROSS_COMPILE=/mnt/e/MCU/tools/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi- -j
 # or
