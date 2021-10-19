@@ -20,55 +20,10 @@
 
 想了解我们工作室其他产品，请访问[WeAct-Studio-Product](https://gitee.com/WeAct-TC/WeAct-Studio-Product.git)
 
-## 重要说明
+## 购买链接
 
-* 近期网上购物平台出现了大量**仿制品**，也就是**盗版**，我们发现这些仿制品，背面没有 `WeAct` && `版本号` ；板子不是**无铅**工艺，我们都知道有铅对身体**有害**；芯片使用的不是**最新**批次的芯片，甚至使用了**翻新**芯片；不仅生产用料拙劣，而且生产质量不过关，出厂检测敷衍(我们有专门的出厂程序来检测每一个硬件是否合格)，这样客户在使用**盗版**的过程中会出现各种莫名其妙的问题，增加了学习成本，损害了自己的利益，同时也严重损害了我们`WeAct Studio`的产品形象。
-
-* 大家都知道原创不易，我们 `WeAct Studio` 的主旨就是一个致力于设计独一无二电子模块的工作室，为此我们创造`STM32F401、STM32F411`这两款核心板，并且我们对`micropython`,`CMSIS-DAP`作了支持，并且开源社区也对`Arduino`做了支持，填充了市场空白，使这款产品可以很轻松的进行开发，并且我们生产的核心板用的原料都是最好的，但是这款好的产品却**受到了利益商家的侵犯，盗版，翻版，劣质产品，搞得我们焦头烂额**，一定程度上挫伤了我们的积极性。但我们还是本着为广大电子爱好者提供一个好的平台，我们继续维护着我们这一项目，但是维护是需要成本的，所以我们仍然希望大家可以支持正版，抵制盗版，购买正版产品。盗版产品在使用过程中会因为使用劣质材料而出现功能上的缺失，影响开发效率，下面会给出正版商家购买链接，并且给出盗版商家链接谨防上当受骗(这些商家往往使用了正版的图片进行宣传，但受到的确实假货，与图片描述不符)。原创不易，非常感谢大家的支持！！！
-
-## 正版购买链接以及盗版链接
-
-### 淘宝正版购买链接
-
-[WeAct Studio官方店](https://shop118454188.taobao.com/index.htm?spm=2013.1.w5002-17867322799.2.212f5cb16nqwNP)
-
-### 淘宝出售盗版链接（谨防上当受骗，如果不小心购买希望大家举报差评，免得让其他人受骗）
-
-1. ~~[全球易创客空间](https://item.taobao.com/item.htm?spm=a230r.1.14.60.7e3f1465cbQfqs&id=610836924716&ns=1&abbucket=9#detail)~~ 出售盗版,非常严重
-2. ~~[深圳市育松电子](https://item.taobao.com/item.htm?spm=a230r.1.14.139.7e3f1465VxCgzT&id=596986293640&ns=1&abbucket=5#detail)~~ 出售盗版
-3. ~~[eixpsy旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.16.12f5a581svM8ak&id=611089230357&cm_id=140105335569ed55e27b&abbucket=8)~~ 出售盗版
-4. ~~[深圳市海瑟威电子商行](https://item.taobao.com/item.htm?spm=a230r.1.14.38.12f5a581svM8ak&id=588648744621&ns=1&abbucket=8#detail)~~ 出售盗版
-5. ~~[佳仕通数码专营店](https://detail.tmall.com/item.htm?spm=a230r.1.14.92.12f5a581svM8ak&id=611294799545&ns=1&abbucket=8)~~ 出售盗版
-6. ~~[瑞仿科技](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-12887250463.13.59083066X4aKPg&id=618747430812)~~ 出售盗版
-7. ~~[绿深旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.67.1f455f851IlrO2&id=619121595543)~~ 出售盗版
-8. ~~[芯城兴旗舰店](https://detail.tmall.com/item.htm?id=618685960543)~~ 出售盗版
-
-### 速卖通正版购买链接
-
-[Sincere Company Store](https://www.aliexpress.com/item/4000346695587.html)
-
-### 速卖通出售盗版链接（谨防上当受骗，如果不小心购买希望大家举报差评，免得让其他人受骗）
-
-1. ~~[Global-Purchase Store](https://www.aliexpress.com/item/4000103610226.html)~~ 出售盗版
-2. ~~[WAVGAT Official Store](https://www.aliexpress.com/item/4000084631884.html)~~ 涉嫌出售盗版，商品宣传使用正版图片
-3. ~~[WAVGAT authorization Store](https://www.aliexpress.com/item/4000282242626.html)~~ 出售盗版
-4. ~~[AITEXM Store](https://www.aliexpress.com/item/4001098711269.html)~~ 涉嫌出售盗版，商品宣传使用正版图片
-5. ~~[Win win.](https://www.aliexpress.com/item/4001049840288.html)~~ 出售盗版
-6. ~~[SZ Aitexm Store](https://www.aliexpress.com/item/4001062944589.html)~~ 出售盗版
-7. ~~[SAMIORE Store](https://www.aliexpress.com/item/4001116395973.html)~~ 出售盗版
-8. ~~[TENSTAR Store](https://www.aliexpress.com/item/4000542455017.html)~~ 出售盗版
-9. ~~[EQV Official Store](https://www.aliexpress.com/item/1005001294256867.html)~~ 出售盗版
-10. ~~[GREAT WALL Electronics Co., Ltd.](https://www.aliexpress.com/item/4001113377360.html)~~ 出售盗版
-11. ~~[GREATZT Store](https://www.aliexpress.com/item/4000109646917.html)~~ 出售盗版
-12. ~~[Great IT electronic components co., LTD](https://www.aliexpress.com/item/4000069263843.html)~~ 出售盗版
-13. ~~[TZT teng Official Store](https://www.aliexpress.com/item/4000112571119.html)~~ 出售盗版
-14. ~~[TZT Official Store](https://www.aliexpress.com/item/4000138305460.html)~~ 出售盗版
-15. ~~[Great IT](https://www.aliexpress.com/item/4000069263843.html)~~ 出售盗版
-16. ~~[All goods are freeshipping Store](https://www.aliexpress.com/item/4000068998794.html)~~ 出售盗版
-17. ~~[All goods are freeshipping Store](https://www.aliexpress.com/item/4000679874594.html)~~ 出售盗版
-18. To be updated
-
-> 这些盗版商家宣传图片盗用正版产品进行宣传，并且使用我们提供的资料，实际收到的产品与宣传产品完全不同，丝印错误，使用翻新，年份久远的芯片，劣质生产材料，客户使用体验十分的差，请大家仔细甄别，不要让自己的权益收到伤害！！！
+1. 淘宝 [WeAct Studio official store](https://shop118454188.taobao.com/index.htm?spm=2013.1.w5002-17867322799.2.212f5cb16nqwNP)
+2. AliExpress [WeAct Studio Official Store](https://weactstudio.aliexpress.com/)
 
 > 收到的板子没有Logo `WeAct` && `版本号` 的均不是我们生产，如有质量问题和技术问题请自行寻找卖家解决，最好举报他们，商品评论他们，以免其他人上当受骗！！！
 
@@ -206,3 +161,53 @@ STM32F411CE: `/SDK/STM32F411CEU6/MicroPython/WeAct_F411CE`
 |Top|Side|Top&Bottom|
 |:--:|:--:|:--:|
 |![Top](./images/STM32F401-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F401-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F401-3D-Model-Render/top&bottom.jpg "Top&Bottom View")|
+
+## 重要说明
+
+* 近期网上购物平台出现了大量**仿制品**，也就是**盗版**，我们发现这些仿制品，背面没有 `WeAct` && `版本号` ；板子不是**无铅**工艺，我们都知道有铅对身体**有害**；芯片使用的不是**最新**批次的芯片，甚至使用了**翻新**芯片；不仅生产用料拙劣，而且生产质量不过关，出厂检测敷衍(我们有专门的出厂程序来检测每一个硬件是否合格)，这样客户在使用**盗版**的过程中会出现各种莫名其妙的问题，增加了学习成本，损害了自己的利益，同时也严重损害了我们`WeAct Studio`的产品形象。
+
+* 大家都知道原创不易，我们 `WeAct Studio` 的主旨就是一个致力于设计独一无二电子模块的工作室，为此我们创造`STM32F401、STM32F411`这两款核心板，并且我们对`micropython`,`CMSIS-DAP`作了支持，并且开源社区也对`Arduino`做了支持，填充了市场空白，使这款产品可以很轻松的进行开发，并且我们生产的核心板用的原料都是最好的，但是这款好的产品却**受到了利益商家的侵犯，盗版，翻版，劣质产品，搞得我们焦头烂额**，一定程度上挫伤了我们的积极性。但我们还是本着为广大电子爱好者提供一个好的平台，我们继续维护着我们这一项目，但是维护是需要成本的，所以我们仍然希望大家可以支持正版，抵制盗版，购买正版产品。盗版产品在使用过程中会因为使用劣质材料而出现功能上的缺失，影响开发效率，下面会给出正版商家购买链接，并且给出盗版商家链接谨防上当受骗(这些商家往往使用了正版的图片进行宣传，但受到的确实假货，与图片描述不符)。原创不易，非常感谢大家的支持！！！
+
+## 正版购买链接以及盗版链接
+
+### 淘宝正版购买链接
+
+[WeAct Studio官方店](https://shop118454188.taobao.com/index.htm?spm=2013.1.w5002-17867322799.2.212f5cb16nqwNP)
+
+### 淘宝出售盗版链接（谨防上当受骗，如果不小心购买希望大家举报差评，免得让其他人受骗）
+
+1. ~~[全球易创客空间](https://item.taobao.com/item.htm?spm=a230r.1.14.60.7e3f1465cbQfqs&id=610836924716&ns=1&abbucket=9#detail)~~ 出售盗版,非常严重
+2. ~~[深圳市育松电子](https://item.taobao.com/item.htm?spm=a230r.1.14.139.7e3f1465VxCgzT&id=596986293640&ns=1&abbucket=5#detail)~~ 出售盗版
+3. ~~[eixpsy旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.16.12f5a581svM8ak&id=611089230357&cm_id=140105335569ed55e27b&abbucket=8)~~ 出售盗版
+4. ~~[深圳市海瑟威电子商行](https://item.taobao.com/item.htm?spm=a230r.1.14.38.12f5a581svM8ak&id=588648744621&ns=1&abbucket=8#detail)~~ 出售盗版
+5. ~~[佳仕通数码专营店](https://detail.tmall.com/item.htm?spm=a230r.1.14.92.12f5a581svM8ak&id=611294799545&ns=1&abbucket=8)~~ 出售盗版
+6. ~~[瑞仿科技](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-12887250463.13.59083066X4aKPg&id=618747430812)~~ 出售盗版
+7. ~~[绿深旗舰店](https://detail.tmall.com/item.htm?spm=a230r.1.14.67.1f455f851IlrO2&id=619121595543)~~ 出售盗版
+8. ~~[芯城兴旗舰店](https://detail.tmall.com/item.htm?id=618685960543)~~ 出售盗版
+
+### 速卖通正版购买链接
+
+[WeAct Studio Official Store](https://weactstudio.aliexpress.com/)
+
+### 速卖通出售盗版链接（谨防上当受骗，如果不小心购买希望大家举报差评，免得让其他人受骗）
+
+1. ~~[Global-Purchase Store](https://www.aliexpress.com/item/4000103610226.html)~~ 出售盗版
+2. ~~[WAVGAT Official Store](https://www.aliexpress.com/item/4000084631884.html)~~ 涉嫌出售盗版，商品宣传使用正版图片
+3. ~~[WAVGAT authorization Store](https://www.aliexpress.com/item/4000282242626.html)~~ 出售盗版
+4. ~~[AITEXM Store](https://www.aliexpress.com/item/4001098711269.html)~~ 涉嫌出售盗版，商品宣传使用正版图片
+5. ~~[Win win.](https://www.aliexpress.com/item/4001049840288.html)~~ 出售盗版
+6. ~~[SZ Aitexm Store](https://www.aliexpress.com/item/4001062944589.html)~~ 出售盗版
+7. ~~[SAMIORE Store](https://www.aliexpress.com/item/4001116395973.html)~~ 出售盗版
+8. ~~[TENSTAR Store](https://www.aliexpress.com/item/4000542455017.html)~~ 出售盗版
+9. ~~[EQV Official Store](https://www.aliexpress.com/item/1005001294256867.html)~~ 出售盗版
+10. ~~[GREAT WALL Electronics Co., Ltd.](https://www.aliexpress.com/item/4001113377360.html)~~ 出售盗版
+11. ~~[GREATZT Store](https://www.aliexpress.com/item/4000109646917.html)~~ 出售盗版
+12. ~~[Great IT electronic components co., LTD](https://www.aliexpress.com/item/4000069263843.html)~~ 出售盗版
+13. ~~[TZT teng Official Store](https://www.aliexpress.com/item/4000112571119.html)~~ 出售盗版
+14. ~~[TZT Official Store](https://www.aliexpress.com/item/4000138305460.html)~~ 出售盗版
+15. ~~[Great IT](https://www.aliexpress.com/item/4000069263843.html)~~ 出售盗版
+16. ~~[All goods are freeshipping Store](https://www.aliexpress.com/item/4000068998794.html)~~ 出售盗版
+17. ~~[All goods are freeshipping Store](https://www.aliexpress.com/item/4000679874594.html)~~ 出售盗版
+18. To be updated
+
+> 这些盗版商家宣传图片盗用正版产品进行宣传，并且使用我们提供的资料，实际收到的产品与宣传产品完全不同，丝印错误，使用翻新，年份久远的芯片，劣质生产材料，客户使用体验十分的差，请大家仔细甄别，不要让自己的权益收到伤害！！！
