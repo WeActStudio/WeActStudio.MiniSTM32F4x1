@@ -56,7 +56,7 @@ void LCD_Test(void)
 	//配置ST7735 configure own ST7735 
 	ST7735Ctx.Orientation = ST7735_ORIENTATION_PORTRAIT;//ST7735显示方向
 	ST7735Ctx.Panel = BOE_Panel;			//ST7735 panel
-	ST7735Ctx.Type = ST7735_1_8_inch_screen;		//ST7735类型
+	ST7735Ctx.Type = ST7735_1_8a_inch_screen;		//ST7735类型
 	
 	ST7735_RegisterBusIO(&st7735_pObj,&st7735_pIO);
 	ST7735_LCD_Driver.Init(&st7735_pObj,ST7735_FORMAT_RBG565,&ST7735Ctx);

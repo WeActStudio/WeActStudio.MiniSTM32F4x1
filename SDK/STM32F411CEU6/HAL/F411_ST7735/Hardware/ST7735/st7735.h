@@ -147,7 +147,6 @@ typedef struct
   */  
 #define  ST7735_0_9_WIDTH           80U
 #define  ST7735_0_9_HEIGHT          160U
-
 /**
  *  @brief LCD_OrientationTypeDef
  *  Possible values of Display Orientation
@@ -170,7 +169,7 @@ typedef struct
  */
 #define ST7735_1_8_inch_screen							0x00U
 #define ST7735_0_9_inch_screen							0x01U 
-
+#define ST7735_1_8a_inch_screen							0x02U
 /**
  *  @brief  LCD_Panel
  */
