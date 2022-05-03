@@ -64,7 +64,7 @@ static void LED_Blink(uint32_t Hdelay,uint32_t Ldelay)
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 #define PIXEL_NUM  1
-#define BUFFER_NUM (24*PIXEL_NUM + 280)  // 280*11.9nS RESET time
+#define BUFFER_NUM (24*PIXEL_NUM + 320)  // 320*11.9nS RESET time
 #define WS2812_BIT0   (25)  
 #define WS2812_BIT1   (65)  
 
