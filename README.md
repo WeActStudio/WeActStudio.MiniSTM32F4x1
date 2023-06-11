@@ -33,7 +33,7 @@ To learn more about our studio's other products, please visit [WeAct-Studio-Prod
 
 !["Description of Logo and version number"](./images/STM32F4x1C_Logo&Version.png)
 
-We do not produce the boards that we received without the Logo `WeAct` && `version number`. If we find that the sellers are selling fake goods, we hope you can send us the issues or send us an email(WeAct_TC@163.com), and we will list the sellers on it, so that more people will not be deceived!!
+We do not produce the boards that we received without the Logo `WeAct Studio` && `version number`. If we find that the sellers are selling fake goods, we hope you can send us the issues or send us an email(WeAct_TC@163.com), and we will list the sellers on it, so that more people will not be deceived!!
 
 ## Our Boards
 
