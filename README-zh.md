@@ -25,7 +25,7 @@
 1. 淘宝 [WeAct Studio official store](https://shop118454188.taobao.com/index.htm?spm=2013.1.w5002-17867322799.2.212f5cb16nqwNP)
 2. AliExpress [WeAct Studio Official Store](https://weactstudio.aliexpress.com/)
 
-> 收到的板子没有Logo `WeAct` && `版本号` 的均不是我们生产，如有质量问题和技术问题请自行寻找卖家解决，最好举报他们，商品评论他们，以免其他人上当受骗！！！
+> 收到的板子没有Logo `WeAct Studio` && `版本号` 的均不是我们生产，如有质量问题和技术问题请自行寻找卖家解决，最好举报他们，商品评论他们，以免其他人上当受骗！！！
 
 > STM32F401 V1.2,STM32F411 V1.3 已于2019.11停产，如网上购物平台仍有销售，即为假货！！！
 
