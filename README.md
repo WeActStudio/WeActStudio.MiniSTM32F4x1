@@ -25,7 +25,7 @@ To learn more about our studio's other products, please visit [WeAct-Studio-Prod
 1. TaoBao [WeAct Studio official store](https://shop118454188.taobao.com/index.htm?spm=2013.1.w5002-17867322799.2.212f5cb16nqwNP)
 2. AliExpress [WeAct Studio Official Store](https://weactstudio.aliexpress.com/)
 
-> None of the boards received without Logo `WeAct` && `version number` are produced by us. If there are any quality problems or technical problems, please find the seller to solve them by yourself. It is best to report them and comment on them, so as not to deceive others!!
+> None of the boards received without Logo `WeAct Studio` && `version number` are produced by us. If there are any quality problems or technical problems, please find the seller to solve them by yourself. It is best to report them and comment on them, so as not to deceive others!!
 
 > STM32F401 V1.2 `End Of Life` , STM32F411 V1.3 `End Of Life` Since 2019.11.If the online shopping platform is still sold, it is fake!!
 
