@@ -6,20 +6,6 @@
 
 !["STM32F411 Immersion Gold Board 3D View"](./images/STM32F4x1-V22-3D.jpg )
 
-## STM32F411CEU6 Core Board
-
-|Top|Side|Top&Bottom|
-|:--:|:--:|:--:|
-|![Top](./images/STM32F411-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F411-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F411-3D-Model-Render/top&bottom.jpg "Top&Bottom View")|
-
-## STM32F401CEU6 Core Board
-
-|Top|Side|Top&Bottom|
-|:--:|:--:|:--:|
-|![Top](./images/STM32F401-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F401-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F401-3D-Model-Render/top&bottom.jpg "Top&Bottom View")
-
-To learn more about our studio's other products, please visit [WeAct-Studio-Product](https://github.com/WeActTC/WeAct-Studio-Product.git)
-
 ## Where to buy
 
 1. TaoBao [WeAct Studio official store](https://shop118454188.taobao.com/index.htm?spm=2013.1.w5002-17867322799.2.212f5cb16nqwNP)
@@ -129,16 +115,3 @@ STM32F411CE: `/SDK/STM32F411CEU6/MicroPython/WeAct_F411CE`
 
 ![STM32F4X1 V2.0+](./images/STM32F4x1-V20+BoardShape.png "Board Shape")
 
-## High Quality 3D Model Render
-
-### STM32F411 Core Board
-
-|Top|Side|Top&Bottom|
-|:--:|:--:|:--:|
-|![Top](./images/STM32F411-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F411-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F411-3D-Model-Render/top&bottom.jpg "Top&Bottom View")|
-
-### STM32F401 Core Board
-
-|Top|Side|Top&Bottom|
-|:--:|:--:|:--:|
-|![Top](./images/STM32F401-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F401-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F401-3D-Model-Render/top&bottom.jpg "Top&Bottom View")|

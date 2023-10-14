@@ -6,20 +6,6 @@
 
 !["STM32F411 Immersion Gold Board 3D View"](./images/STM32F4x1-V22-3D.jpg )
 
-## STM32F411CEU6 核心板
-
-|Top|Side|Top&Bottom|
-|:--:|:--:|:--:|
-|![Top](./images/STM32F411-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F411-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F411-3D-Model-Render/top&bottom.jpg "Top&Bottom View")|
-
-## STM32F401CEU6 核心板
-
-|Top|Side|Top&Bottom|
-|:--:|:--:|:--:|
-|![Top](./images/STM32F401-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F401-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F401-3D-Model-Render/top&bottom.jpg "Top&Bottom View")
-
-想了解我们工作室其他产品，请访问[WeAct-Studio-Product](https://gitee.com/WeAct-TC/WeAct-Studio-Product.git)
-
 ## 购买链接
 
 1. 淘宝 [WeAct Studio official store](https://shop118454188.taobao.com/index.htm?spm=2013.1.w5002-17867322799.2.212f5cb16nqwNP)
@@ -138,16 +124,3 @@ STM32F411CE: `/SDK/STM32F411CEU6/MicroPython/WeAct_F411CE`
 
 ![STM32F4X1 V2.0+](./images/STM32F4x1-V20+BoardShape.png "Board Shape")
 
-## 高质量三维模型渲染
-
-### STM32F411 核心板
-
-|Top|Side|Top&Bottom|
-|:--:|:--:|:--:|
-|![Top](./images/STM32F411-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F411-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F411-3D-Model-Render/top&bottom.jpg "Top&Bottom View")|
-
-### STM32F401 核心板
-
-|Top|Side|Top&Bottom|
-|:--:|:--:|:--:|
-|![Top](./images/STM32F401-3D-Model-Render/top.jpg "Top View")|![Side](./images/STM32F401-3D-Model-Render/side.jpg "Side View")|![Top&Bottom View](./images/STM32F401-3D-Model-Render/top&bottom.jpg "Top&Bottom View")|
