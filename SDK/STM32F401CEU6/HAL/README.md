@@ -12,5 +12,3 @@
 ## Important note
 
 8Mhz crystal oscillator circuit board，Run the `CrystalsChangeTo8Mhz.bat` in the project directory before opening the project, and the script will automatically modify the crystal configuration of the project from 25Mhz to 8Mhz
-
-If there is no `WeAct` and `version number` on the back of the board, the chip batch is `537` or old, the stitches and board are packaged in one bag, `the board screen printing is wrong`(`3V3` is going to be labeled `V3V`), it is definitely pirated.Please comment on issues or let us know by email (WeAct_TC@163.com).

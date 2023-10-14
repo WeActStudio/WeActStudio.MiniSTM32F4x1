@@ -2,10 +2,6 @@
 
 * [English Version](./README.md)
 
-## Important note
-
-If there is no `WeAct` and `version number` on the back of the board, the chip batch is `537` or old, the stitches and board are packaged in one bag, `the board screen printing is wrong`(`3V3` is going to be labeled `V3V`), it is definitely pirated.Please comment on issues or let us know by email (WeAct_TC@163.com).
-
 ## 如何编译micropython 需使用linux (ubuntu或Win10企业版linux子系统)
 
 不建议自己编译固件，使用我们提供的固件即可，如确实需要编译，请自备linux基础使用知识，以下均为linux下的操作

@@ -2,10 +2,6 @@
 
 * [English Version](./README.md)
 
-## 重要说明
-
-如果板子背面没有`WeAct`和`版本号`，芯片批次是`537`或旧的，插针和板子是装在一个袋子里，`丝印印刷是错误的`(`3V3`印成了`V3V`)，肯定是盗版。可以issues我们或通过电子邮件(WeAct_TC@163.com)告知我们。
-
 本软件参考了以下源码，但不是修改以下源码而来
 STM32_HID_bootloader  <https://github.com/Serasidis/STM32_HID_Bootloader.git>
 

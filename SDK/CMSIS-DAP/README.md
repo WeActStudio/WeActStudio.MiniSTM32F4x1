@@ -22,8 +22,6 @@ After a MiniF4 has been programmed with this firmware, it will become a CMSIS-DA
 
 ## Important note
 
-If there is no `WeAct` and `version number` on the back of the board, the chip batch is `537` or old, the header pins and board are packaged in one bag, the board screen printing is wrong (`3V3` is labeled `V3V`), it is definitely pirated. Please comment on issues or let us know by email (WeAct_TC@163.com).
-
 Please help us and yourselves by buying a reliable defect-free product made to high standards with a genuine ST Micro STM32F4x1 MCU, by buying from our official stores.
 
 Buying a genine product helps us to continue to develop software like this, and interesting new hardware designs.
