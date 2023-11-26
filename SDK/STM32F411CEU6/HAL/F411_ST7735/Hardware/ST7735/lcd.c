@@ -275,7 +275,7 @@ static int32_t lcd_gettick(void)
 
 static int32_t lcd_writereg(uint8_t reg,uint8_t* pdata,uint32_t length)
 {
-	int32_t result;
+	HAL_StatusTypeDef result;
 	LCD_CS_RESET;
 	LCD_RS_RESET;
 	result = HAL_SPI_Transmit(SPI_Drv,&reg,1,100);
@@ -283,42 +283,50 @@ static int32_t lcd_writereg(uint8_t reg,uint8_t* pdata,uint32_t length)
 	if(length > 0)
 		result += HAL_SPI_Transmit(SPI_Drv,pdata,length,500);
 	LCD_CS_SET;
-	result /= -result;
-	return result;
+	if(result != HAL_OK)
+		return -1;
+	else
+		return 0;
 }
 
 static int32_t lcd_readreg(uint8_t reg,uint8_t* pdata)
 {
-	int32_t result;
+	HAL_StatusTypeDef result;
 	LCD_CS_RESET;
 	LCD_RS_RESET;
 	result = HAL_SPI_Transmit(SPI_Drv,&reg,1,100);
 	LCD_RS_SET;
 	result += HAL_SPI_Receive(SPI_Drv,pdata,1,500);
 	LCD_CS_SET;
-	result /= -result;
-	return result;
+	if(result != HAL_OK)
+		return -1;
+	else
+		return 0;
 }
 
 static int32_t lcd_senddata(uint8_t* pdata,uint32_t length)
 {
-	int32_t result;
+	HAL_StatusTypeDef result;
 	LCD_CS_RESET;
 	//LCD_RS_SET;
 	result =HAL_SPI_Transmit(SPI_Drv,pdata,length,100);
 	LCD_CS_SET;
-	result /= -result;
-	return result;
+	if(result != HAL_OK)
+		return -1;
+	else
+		return 0;
 }
 
 static int32_t lcd_recvdata(uint8_t* pdata,uint32_t length)
 {
-	int32_t result;
+	HAL_StatusTypeDef result;
 	LCD_CS_RESET;
 	//LCD_RS_SET;
 	result = HAL_SPI_Receive(SPI_Drv,pdata,length,500);
 	LCD_CS_SET;
-	result /= -result;
-	return result;
+	if(result != HAL_OK)
+		return -1;
+	else
+		return 0;
 }
 
