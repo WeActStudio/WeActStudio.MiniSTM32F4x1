@@ -4,7 +4,8 @@
 
 ## WeAct Studio STM32F411CEU6
 
-> `firmware_xxxxxxx_stm32f411_vxx_v1.14-7` The latest
+> `firmware_xxxxxxx_stm32f411_xxmhz_vxx_v1.22` The latest  
+8MHz crystal version Select the file ending at 8mhz.
 
 Restore factory Settings: Hold down the KEY and click the Reset KEY. The blue LED flashes three times. Release the KEY to restore factory Settings
 

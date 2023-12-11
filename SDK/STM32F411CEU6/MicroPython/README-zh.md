@@ -4,11 +4,11 @@
 
 ## WeAct Studio STM32F411CEU6
 
-板子没有焊接flash刷入名称含有`internal`的固件，焊接了flash，根据flash的大小选择对应的固件`8M`,`4M`。
+板子没有焊接flash刷入名称含有`internal`的固件，焊接了flash，根据flash的大小选择对应的固件`8M`,`4M`，8MHz晶振版本请选择8mhz结尾的文件。
 
 恢复出厂设置：按住KEY键，单击复位键，蓝色LED闪烁三下，松开KEY键，即可恢复出厂设置
 
-> 最新固件为：`firmware_xxxxxxx_stm32f411_vxx_v1.14-7`
+> 最新固件为：`firmware_xxxxxxx_stm32f411_xxmhz_vxx_v1.12`
 
 4MB SPI Flash:
 

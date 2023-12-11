@@ -15,6 +15,8 @@ void WeAct_Core_board_early_init(void);
    use the external flash to change to 0 */
 #define MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE (1)
 
+#define WEACT_STUDIO_HSE_IS_8MHZ    (0)
+
 #define MICROPY_HW_HAS_SWITCH       (1)
 #define MICROPY_HW_HAS_FLASH        (1)
 #define MICROPY_HW_ENABLE_RTC       (1)
@@ -25,8 +27,13 @@ void WeAct_Core_board_early_init(void);
 #define MICROPY_HW_ENABLE_RNG       (0)
 #define MICROPY_HW_ENABLE_DAC       (0)
 
-// HSE is 25MHz, CPU freq set to 96MHz
+// HSE is 8/25MHz, CPU freq set to 96MHz
+#if WEACT_STUDIO_HSE_IS_8MHZ == 1
+#define MICROPY_HW_CLK_PLLM (8)
+#else
 #define MICROPY_HW_CLK_PLLM (25)
+#endif
+
 #define MICROPY_HW_CLK_PLLN (192)
 #define MICROPY_HW_CLK_PLLP (RCC_PLLP_DIV2)
 #define MICROPY_HW_CLK_PLLQ (4)
@@ -99,7 +106,7 @@ void WeAct_Core_board_early_init(void);
 // 4MB Flash 32Mbit
 // 8MB Flash 64Mbit
 // 16MB Flash 128Mbit
-#define MICROPY_HW_SPIFLASH_SIZE_BITS (32 * 1024 * 1024)
+#define MICROPY_HW_SPIFLASH_SIZE_BITS (64 * 1024 * 1024)
 
 #define MICROPY_HW_SPIFLASH_CS      (pin_A4)
 #define MICROPY_HW_SPIFLASH_SCK     (pin_A5)
