@@ -9,7 +9,7 @@ git submodule update --init
 cd mpy-cross
 make -j
 cd ../ports/stm32/boards
-git clone https://github.com/WeActTC/WeAct_F411CE.git
+git clone https://github.com/WeActStudio/WeAct_F411CE.git
 cd ..
 # CROSS_COMPILE 修改为自己的编译器路径
 # CROSS_COMPILE Change to your own compiler path

@@ -29,7 +29,7 @@
 
 * `SPIFlash_Erase_Firmware.hex`
 
-> micropython入门使用中文教程：<https://www.weact-tc.cn/2020/01/01/micropython/>
+> micropython入门使用中文教程：<https://blog.weactstudio.com/2020/01/01/micropython/>
 
 ## 如何编译micropython 需使用linux (ubuntu或Win10企业版linux子系统)
 

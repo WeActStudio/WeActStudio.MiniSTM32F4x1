@@ -1,7 +1,7 @@
 /* USER CODE BEGIN Header */
 
 // WeAct Studio 微行工作室
-// https://github.com/WeActTC/
+// https://github.com/WeActStudio/
 // 淘宝搜索：WeAct Studio
 // STM32F401CEU6 Core Board
 // Board Version: V3.0
@@ -77,7 +77,7 @@ static void LED_Blink(uint32_t Hdelay,uint32_t Ldelay)
  /*
   *power by WeAct Studio
   *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
-  *For more information please visit: https://github.com/WeActTC/MiniF4-STM32F4x1
+  *For more information please visit: https://github.com/WeActStudio/MiniF4-STM32F4x1
   *更多信息请访问：https://gitee.com/WeActTC/MiniF4-STM32F4x1
   */
 /* USER CODE END 0 */

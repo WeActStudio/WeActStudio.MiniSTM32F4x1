@@ -13,7 +13,7 @@ git submodule update --init
 cd mpy-cross
 make -j4
 cd ../ports/stm32/boards
-git clone https://github.com/WeActTC/WeAct_F411CE-MicroPython.git WeAct_F411CE
+git clone https://github.com/WeActStudio/WeAct_F411CE-MicroPython.git WeAct_F411CE
 ```
 
 Then

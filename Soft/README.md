@@ -7,7 +7,7 @@
 2. `WeAct Studio Download Tool` Our studio produced download tools, can be through the serial port and USB download program or firmware, can be used for microPython firmware burning or program download, very easy to use, recommended!
 
 3. `STM32_HID_Bootloader` C language development official HID Bootloader, want to learn more please visit
- <https://github.com/WeActTC/STM32_HID_Bootloader.git>
+ <https://github.com/WeActStudio/STM32_HID_Bootloader.git>
 
 4. `STM32CubeProgmmer` STM32 official download tool, download please visit[ST WebSite](https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/stm32cubeprog.html)
 

@@ -27,7 +27,7 @@
 
 * `SPIFlash_Erase_Firmware.hex`
 
-> micropython入门使用中文教程：<https://www.weact-tc.cn/2020/01/01/micropython/>
+> micropython入门使用中文教程：<https://blog.weactstudio.com/2020/01/01/micropython/>
 
 更多资料请访问：<https://gitee.com/WeActTC/WeAct_F411CE.git>
 

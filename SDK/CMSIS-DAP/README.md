@@ -41,7 +41,7 @@ Install necessary tools:
 
     apt install unzip binutils usbutils dfu-util
 
-Unzip the downloaded software from https://github.com/WeActTC/MiniSTM32F4x1/blob/master/SDK/CMSIS-DAP/CMSIS-DAP_WeActStudio.zip
+Unzip the downloaded software from https://github.com/WeActStudio/MiniSTM32F4x1/blob/master/SDK/CMSIS-DAP/CMSIS-DAP_WeActStudio.zip
 
     mkdir WeActStudio-stm32f4-DAP && cd WeActStudio-stm32f4-DAP && unzip ~/Downloads/CMSIS-DAP_WeActStudio.zip && cd Objects
 

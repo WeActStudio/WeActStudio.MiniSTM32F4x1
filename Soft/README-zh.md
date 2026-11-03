@@ -7,7 +7,7 @@
 2. `WeAct Studio Download Tool` 本工作室制作的下载工具，可以通过串口和USB下载程序或固件，可用于micropython固件的烧录或程序下载，非常好用，推荐！
 
 3. `STM32_HID_Bootloader` C语言开发官方HID bootloader,想了解更多请访问
- <https://github.com/WeActTC/STM32_HID_Bootloader.git>
+ <https://github.com/WeActStudio/STM32_HID_Bootloader.git>
 
 4. `STM32CubeProgmmer` STM32官方下载工具,下载请访问[ST WebSite](https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/stm32cubeprog.html)
 
