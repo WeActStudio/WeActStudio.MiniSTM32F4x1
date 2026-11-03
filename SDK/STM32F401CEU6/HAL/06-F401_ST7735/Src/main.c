@@ -80,8 +80,8 @@ static void RTC_CalendarShow(RTC_DateTypeDef *sdatestructureget,RTC_TimeTypeDef 
 }
  /*
   *power by WeAct Studio
-  *For more information please visit: https://github.com/WeActTC/WeAct-ST7735
-  *更多信息请访问：https://gitee.com/WeActTC/WeAct-ST7735
+  *For more information please visit: https://github.com/WeActStudio/WeAct-ST7735
+  *更多信息请访问：https://gitee.com/WeActStudio/WeAct-ST7735
   */
 /* USER CODE END 0 */
 

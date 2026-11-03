@@ -68,7 +68,7 @@ void SystemClock_Config(void);
   *power by WeAct Studio
   *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
   *For more information please visit: https://github.com/WeActStudio/MiniF4-STM32F4x1
-  *更多信息请访问：https://gitee.com/WeActTC/MiniF4-STM32F4x1
+  *更多信息请访问：https://gitee.com/WeActStudio/MiniF4-STM32F4x1
   */
  
 static void LED_Blink(uint32_t Hdelay,uint32_t Ldelay)

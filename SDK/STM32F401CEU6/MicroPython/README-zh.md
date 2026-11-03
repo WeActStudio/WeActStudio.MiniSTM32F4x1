@@ -29,7 +29,7 @@
 
 > micropython入门使用中文教程：<https://blog.weactstudio.com/2020/01/01/micropython/>
 
-更多资料请访问：<https://gitee.com/WeActTC/WeAct_F411CE.git>
+更多资料请访问：<https://gitee.com/WeActStudio/WeAct_F411CE.git>
 
 ## 如何编译micropython 需使用linux (ubuntu或Win10企业版linux子系统)
 
