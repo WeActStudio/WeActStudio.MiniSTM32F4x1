@@ -28,7 +28,7 @@ Special problems need to be erased SPI Flash:
 * SPIFlash_Erase_Firmware.hex
 
 Learn more, please visit : <https://github.com/WeActStudio/WeAct_F411CE.git>
-> Micropython Chinese tutorial：<https://blog.weactstudio.com/2020/01/01/micropython/>
+> Micropython Chinese tutorial：<https://blog.weactstudio.com/posts/stm32f411ce-micropython-tutorial/>
 
 ## How to build micropython need ubuntu or Win10 subsystem Linux
 

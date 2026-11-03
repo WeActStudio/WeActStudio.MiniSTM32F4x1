@@ -71,13 +71,13 @@ STM32F401CE: `/SDK/STM32F401CEU6/MicroPython/WeAct_F411CE`
 
 STM32F411CE: `/SDK/STM32F411CEU6/MicroPython/WeAct_F411CE`
 
-> 中文使用部分教程：[点击](https://blog.weactstudio.com/2020/01/01/micropython/)
+> 中文使用部分教程：[点击](https://blog.weactstudio.com/posts/stm32f411ce-micropython-tutorial/)
 
 > 中文使用部分教程.pdf文件：`/General document/MicroPython部分使用教程 _WeAct工作室.pdf`
 
 ## HID Flash
 
-> 中文STM32下载烧录部分教程：[点击](https://blog.weactstudio.com/2019/11/30/STM32Download/)
+> 中文STM32下载烧录部分教程：[点击](https://blog.weactstudio.com/posts/stm32-download-tutorial/)
 
 > 中文STM32下载烧录部分教程.pdf文件：`/General document/STM32部分下载烧录问题汇总 _WeAct工作室.pdf`
 
